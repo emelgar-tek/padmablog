@@ -1,0 +1,25 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  padma.test:
+    site_hosts:
+      - canonical: padma.test
+    local_path: ../padma # path targeting local Bedrock site directory (relative to Ansible root)
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+    cache:
+      enabled: false
+  tekno.test:
+    site_hosts:
+      - canonical: tekno.test
+    local_path: ../tekno # path targeting local Bedrock site directory (relative to Ansible root)
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+    cache:
+      enabled: false

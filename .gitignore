@@ -1,0 +1,26 @@
+*.code-workspace
+*.vault_pass
+# Application
+/site/web/app/plugins/*
+!/site/web/app/plugins/.gitkeep
+/site/web/app/mu-plugins/*/
+/site/web/app/upgrade
+/site/web/app/uploads/*
+!/site/web/app/uploads/.gitkeep
+/site/web/app/cache/*
+
+# WordPress
+/site/web/wp
+/site/web/.htaccess
+
+# Dotenv
+/site/.env
+/site/.env.*
+!/site/.env.example
+
+# Composer
+/site/vendor
+
+# WP-CLI
+/site/wp-cli.local.yml
+
