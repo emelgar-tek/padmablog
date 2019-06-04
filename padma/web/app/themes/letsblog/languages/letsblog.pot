@@ -1,0 +1,822 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Minos Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-06 17:04+0700\n"
+"PO-Revision-Date: 2015-08-03 12:00+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:23
+msgid "Not Found!"
+msgstr ""
+
+#: ../404.php:27
+msgid "We're sorry, the page you have looked for does not exist in our content!"
+msgstr ""
+
+#: ../404.php:28
+msgid "Perhaps you would like to go to our homepage or try searching below."
+msgstr ""
+
+#: ../404.php:32 ../templates/template-search.php:9
+msgid "Type to search and hit enter..."
+msgstr ""
+
+#: ../404.php:37
+msgid "Or try to browse our latest posts instead?"
+msgstr ""
+
+#: ../404.php:97 ../blog_2cols.php:134 ../blog_3cols.php:134 ../blog_f.php:161
+#: ../blog_f_grid.php:176 ../blog_f_grid.php:266 ../blog_l.php:183
+#: ../blog_l_grid.php:189 ../blog_l_grid.php:279 ../blog_r.php:165
+#: ../blog_r_grid.php:176 ../blog_r_grid.php:266 ../blog_s_grid.php:171
+msgid "Read More"
+msgstr ""
+
+#: ../404.php:101 ../blog_2cols.php:138 ../blog_3cols.php:138 ../blog_f.php:165
+#: ../blog_f_grid.php:180 ../blog_f_grid.php:270 ../blog_l.php:187
+#: ../blog_l_grid.php:193 ../blog_l_grid.php:283 ../blog_r.php:169
+#: ../blog_r_grid.php:180 ../blog_r_grid.php:270 ../blog_s_grid.php:175
+msgid "No Comment"
+msgstr ""
+
+#: ../404.php:101 ../blog_2cols.php:138 ../blog_3cols.php:138 ../blog_f.php:165
+#: ../blog_f_grid.php:180 ../blog_f_grid.php:270 ../blog_l.php:187
+#: ../blog_l_grid.php:193 ../blog_l_grid.php:283 ../blog_r.php:169
+#: ../blog_r_grid.php:180 ../blog_r_grid.php:270 ../blog_s_grid.php:175
+msgid "1 Comment"
+msgstr ""
+
+#: ../404.php:101 ../blog_2cols.php:138 ../blog_3cols.php:138 ../blog_f.php:165
+#: ../blog_f_grid.php:180 ../blog_f_grid.php:270 ../blog_l.php:187
+#: ../blog_l_grid.php:193 ../blog_l_grid.php:283 ../blog_r.php:169
+#: ../blog_r_grid.php:180 ../blog_r_grid.php:270 ../blog_s_grid.php:175
+msgid "% Comments"
+msgstr ""
+
+#: ../blog_2cols.php:151 ../blog_3cols.php:150 ../blog_f.php:210
+#: ../blog_f_grid.php:289 ../blog_l.php:232 ../blog_l_grid.php:302
+#: ../blog_r.php:214 ../blog_r_grid.php:289 ../blog_s.php:139
+#: ../blog_s_full.php:139 ../blog_s_grid.php:276
+msgid "Newer Posts"
+msgstr ""
+
+#: ../blog_2cols.php:151 ../blog_3cols.php:150 ../blog_f.php:210
+#: ../blog_f_grid.php:289 ../blog_l.php:232 ../blog_l_grid.php:302
+#: ../blog_r.php:214 ../blog_r_grid.php:289 ../blog_s.php:139
+#: ../blog_s_full.php:139 ../blog_s_grid.php:276
+msgid "Older Posts"
+msgstr ""
+
+#: ../comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:9
+msgid "Leave A Reply"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments"
+msgstr ""
+
+#: ../contact.php:80
+msgid "Name *"
+msgstr ""
+
+#: ../contact.php:89
+msgid "Email *"
+msgstr ""
+
+#: ../contact.php:98
+msgid "Message *"
+msgstr ""
+
+#: ../contact.php:107
+msgid "Address"
+msgstr ""
+
+#: ../contact.php:116
+msgid "Phone"
+msgstr ""
+
+#: ../contact.php:125
+msgid "Mobile"
+msgstr ""
+
+#: ../contact.php:134
+msgid "Company Name"
+msgstr ""
+
+#: ../contact.php:143
+msgid "Country"
+msgstr ""
+
+#: ../contact.php:179
+msgid "Submit Form"
+msgstr ""
+
+#: ../functions.php:509
+msgid "Updating..."
+msgstr ""
+
+#: ../functions.php:510
+msgid "Successfully<br/>Update"
+msgstr ""
+
+#: ../functions.php:532
+msgid "Theme Setting"
+msgstr ""
+
+#: ../functions.php:533
+msgid "Theme Support"
+msgstr ""
+
+#: ../functions.php:536
+msgid "Save All Changes"
+msgstr ""
+
+#: ../functions.php:631 ../functions.php:671 ../functions.php:745
+#: ../functions.php:754
+msgid "Delete"
+msgstr ""
+
+#: ../functions.php:646
+msgid "Below are fonts that already installed."
+msgstr ""
+
+#: ../functions.php:754
+msgid "Listen current music"
+msgstr ""
+
+#: ../functions.php:1180
+msgid "Gallery"
+msgstr ""
+
+#: ../functions.php:1186
+msgid "Page"
+msgstr ""
+
+#: ../functions.php:1191
+msgid "Projects"
+msgstr ""
+
+#: ../functions.php:1196
+msgid "Service"
+msgstr ""
+
+#: ../functions.php:1201
+msgid "Client"
+msgstr ""
+
+#: ../functions.php:1239
+msgid "View all results"
+msgstr ""
+
+#: ../functions.php:1274
+msgid "Thank you! We will get back to you as soon as possible"
+msgstr ""
+
+#: ../functions.php:1288
+msgid "[Email Contact]"
+msgstr ""
+
+#: ../get_captcha.php:16
+msgid "Please enter correct captcha text"
+msgstr ""
+
+#: ../header.php:127
+msgid "Back"
+msgstr ""
+
+#: ../header.php:148
+msgid "Search..."
+msgstr ""
+
+#: ../lib/custom.lib.php:25
+msgid "(Your comment is awaiting moderation.)"
+msgstr ""
+
+#: ../lib/custom.lib.php:44
+msgid "at"
+msgstr ""
+
+#: ../lib/custom.lib.php:50
+msgid "Reply"
+msgstr ""
+
+#: ../lib/custom.lib.php:50
+msgid "Login to Reply"
+msgstr ""
+
+#: ../lib/custom.lib.php:99
+msgid "Recent Posts"
+msgstr ""
+
+#: ../lib/custom.lib.php:112
+msgid "Popular Posts"
+msgstr ""
+
+#: ../lib/custom.lib.php:1117
+msgid "Content Items (Posts, Pages, Custom Post Types, Revisions)"
+msgstr ""
+
+#: ../lib/custom.lib.php:1118
+msgid "Excerpts"
+msgstr ""
+
+#: ../lib/custom.lib.php:1119
+msgid "Attachments"
+msgstr ""
+
+#: ../lib/custom.lib.php:1120
+msgid "Links"
+msgstr ""
+
+#: ../lib/custom.lib.php:1121
+msgid "Custom Fields"
+msgstr ""
+
+#: ../lib/custom.lib.php:1122
+msgid "GUIDs"
+msgstr ""
+
+#: ../lib/menu.lib.php:7
+msgid "Primary Menu"
+msgstr ""
+
+#: ../lib/menu.lib.php:8
+msgid "Top Bar Menu"
+msgstr ""
+
+#: ../lib/menu.lib.php:9
+msgid "Side (Mobile) Menu"
+msgstr ""
+
+#: ../lib/menu.lib.php:10
+msgid "Footer Menu"
+msgstr ""
+
+#: ../lib/tgm.lib.php:47 ../modules/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/tgm.lib.php:48 ../modules/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/tgm.lib.php:49 ../modules/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/tgm.lib.php:50 ../modules/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../lib/tgm.lib.php:61 ../modules/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/tgm.lib.php:62 ../modules/class-tgm-plugin-activation.php:399
+#: ../modules/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/tgm.lib.php:63
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../lib/theme.filter.lib.php:40
+msgid "Name"
+msgstr ""
+
+#: ../lib/theme.filter.lib.php:41
+msgid "Email"
+msgstr ""
+
+#: ../lib/theme.filter.lib.php:42
+msgid "Website"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:400
+#: ../modules/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:402
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../modules/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../modules/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../modules/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../modules/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../modules/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../modules/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:290
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: ../modules/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:301
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: ../modules/import/parsers.php:42 ../modules/import/parsers.php:72
+#: ../modules/import/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../modules/import/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: ../modules/import/parsers.php:84 ../modules/import/parsers.php:89
+#: ../modules/import/parsers.php:306 ../modules/import/parsers.php:495
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:132
+#: ../modules/import/wordpress-importer.php:141
+#: ../modules/import/wordpress-importer.php:192
+#: ../modules/import/wordpress-importer.php:196
+#: ../modules/import/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:197
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:213
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:238
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:265
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:267
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:372
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:516
+#: ../modules/import/wordpress-importer.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:869
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:876
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:939
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:952
+msgid "Invalid file type"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:996
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1002
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1014
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1020
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1119
+msgid "Import WordPress"
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1126
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1141
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1142
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../modules/import/wordpress-importer.php:1216
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr ""
+
+#: ../modules/kirki/example.php:152
+msgid "Color Control (hex-only)"
+msgstr ""
+
+#: ../modules/kirki/example.php:161
+msgid "Color Control (with alpha channel)"
+msgstr ""
+
+#: ../modules/kirki/example.php:173
+msgid "Color Control - hue only."
+msgstr ""
+
+#: ../modules/kirki/example.php:610
+msgid "This is a sortable control."
+msgstr ""
+
+#: ../single-post-f.php:158 ../single-post-l.php:157
+msgid "In"
+msgstr ""
+
+#: ../single-post-f.php:196 ../single-post-l.php:195 ../single-post-r.php:162
+msgid "Share"
+msgstr ""
+
+#: ../single-post-f.php:286 ../single-post-l.php:285 ../single-post-r.php:252
+msgid "You might also like"
+msgstr ""
+
+#: ../templates/script-contact-form.php:41
+msgid "Please enter"
+msgstr ""
+
+#: ../templates/script-contact-form.php:47
+msgid "Please enter valid"
+msgstr ""
+
+#: ../templates/template-header.php:52
+msgid "Blog Archives"
+msgstr ""
+
+#: ../templates/template-header.php:61
+msgid "Search"
+msgstr ""
+
+#: ../templates/template-header.php:89
+msgid "Search Results for "
+msgstr ""
+
+#: ../templates/template-search.php:6
+msgid "Search results for"
+msgstr ""
+
+#: ../templates/template-search.php:6
+msgid "If you didn't find what you were looking for, try a new search."
+msgstr ""
+
+#: ../templates/template-share.php:12
+msgid "Share On Facebook"
+msgstr ""
+
+#: ../templates/template-share.php:13
+msgid "Share On Twitter"
+msgstr ""
+
+#: ../templates/template-share.php:14
+msgid "Share On Pinterest"
+msgstr ""
+
+#: ../templates/template-share.php:15
+msgid "Share On Google+"
+msgstr ""
+
+#: ../templates/template-topmenu.php:209
+msgid "Setup Menu via Wordpress Dashboard > Appearance > Menus"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Leave A Reply"
+#~ msgstr "Leave a Reply"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Leave a Reply"
+
+#, fuzzy
+#~ msgid "Cancel Reply"
+#~ msgstr "Leave a Reply"

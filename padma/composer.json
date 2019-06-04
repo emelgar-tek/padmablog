@@ -39,7 +39,12 @@
     "oscarotero/env": "^1.1.0",
     "roots/wordpress": "5.2.1",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/amazon-s3-and-cloudfront":"dev-trunk",
+    "wpackagist-plugin/amazon-web-services":"dev-trunk",
+    "wpackagist-plugin/birds-custom-login":"dev-trunk",
+    "wpackagist-plugin/resmushit-image-optimizer":"dev-trunk",
+    "wpackagist-plugin/updraftplus":"1.16.15"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
