@@ -8,7 +8,6 @@ apt_dev_package_state: latest
 ntp_timezone: Etc/UTC
 ntp_manage_config: true
 www_root: /srv/www
-php_memory_limit: 512M
 ip_whitelist:
   - "{{ (env == 'development') | ternary(ansible_default_ipv4.gateway, ipify_public_ip | default('')) }}"
 

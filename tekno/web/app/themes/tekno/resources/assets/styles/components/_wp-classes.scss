@@ -13,44 +13,46 @@
 
 .aligncenter {
   display: block;
-  margin: ($spacer / 2) auto;
   height: auto;
+
+  @include -zf-breakpoint-value(auto, $grid-padding-gutters) {
+    margin: (rem-calc($-zf-bp-value) / 2) auto;
+  }
 }
 
 .alignleft,
 .alignright {
-  margin-bottom: ($spacer / 2);
   height: auto;
+
+  @include -zf-breakpoint-value(auto, $grid-padding-gutters) {
+    margin-bottom: (rem-calc($-zf-bp-value) / 2);
+  }
 }
 
-@include media-breakpoint-up(sm) {
+@include breakpoint(medium) {
   .alignleft {
     float: left;
-    margin-right: ($spacer / 2);
+
+    @include -zf-breakpoint-value(medium, $grid-padding-gutters) {
+      margin-right: (rem-calc($-zf-bp-value) / 2);
+    }
   }
 
   .alignright {
     float: right;
-    margin-left: ($spacer / 2);
+
+    @include -zf-breakpoint-value(medium, $grid-padding-gutters) {
+      margin-left: (rem-calc($-zf-bp-value) / 2);
+    }
   }
 }
 
 /** Captions */
-.wp-caption {
-  @extend .figure;
-}
-
-.wp-caption img {
-  @extend .figure-img;
-  @extend .img-fluid;
-}
-
-.wp-caption-text {
-  @extend .figure-caption;
-}
+// TODO: .wp-caption {}
+// TODO: .wp-caption img {}
+// TODO: .wp-caption-text {}
 
 /** Text meant only for screen readers */
 .screen-reader-text {
-  @extend .sr-only;
-  @extend .sr-only-focusable;
+  @extend .show-on-focus;
 }

@@ -1,10 +1,8 @@
-/** Import Bootstrap functions */
-@import "~bootstrap/scss/functions";
-
-$theme-colors: (
-  primary: #525ddc
+/** Colors */
+$foundation-palette: (
+  primary: #525ddc,
+  secondary: #1866ff,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
 );
-
-/** Bootstrap navbar fix (https://git.io/fADqW) */
-$navbar-dark-toggler-icon-bg: none;
-$navbar-light-toggler-icon-bg: none;

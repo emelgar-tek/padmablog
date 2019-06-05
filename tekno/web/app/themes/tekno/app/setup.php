@@ -99,6 +99,10 @@ add_action('widgets_init', function () {
 add_action('the_post', function ($post) {
     sage('blade')->share('post', $post);
 });
+add_action('wp_enqueue_scripts', function () {
+    wp_enqueue_style('sage/main.css', asset_path('styles/main.scss'), false, null);
+    // wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+}, 100);
 
 /**
  * Setup Sage options
