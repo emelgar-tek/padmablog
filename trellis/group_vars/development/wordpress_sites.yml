@@ -21,7 +21,6 @@ wordpress_sites:
     local_path: ../tekno # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: teknovagrant@gmail.com
     wp_memory_limit: 96M
-    WP_MEMORY_LIMIT: 96M
     multisite:
       enabled: false
     ssl:
