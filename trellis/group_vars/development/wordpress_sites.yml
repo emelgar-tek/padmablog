@@ -3,9 +3,9 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  padma.test:
+  dev.padma.com:
     site_hosts:
-      - canonical: padma.test
+      - canonical: dev.padma.com
     local_path: ../padma # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: teknovagrant@gmail.com
     wp_memory_limit: 96M
@@ -15,9 +15,9 @@ wordpress_sites:
       enabled: false
     cache:
       enabled: false
-  tekno.test:
+  dev.tekno.com:
     site_hosts:
-      - canonical: tekno.test
+      - canonical: dev.tekno.com
     local_path: ../tekno # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: teknovagrant@gmail.com
     wp_memory_limit: 96M
