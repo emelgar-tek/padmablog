@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd8cedbd7d21b2ace3c03e694e056f50",
+    "content-hash": "60bcf0bef029c0187b1b10b3600b048e",
     "packages": [
         {
             "name": "composer/installers",
@@ -586,6 +586,24 @@
             "time": "2018-05-24T19:29:30+00:00"
         },
         {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
             "name": "wpackagist-plugin/duplicate-page",
             "version": "dev-trunk",
             "source": {
@@ -603,6 +621,117 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicate-page/",
             "time": "2019-09-20T11:17:36+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/facebook-pagelike-widget",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/facebook-pagelike-widget/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/facebook-pagelike-widget.zip?timestamp=1570369686"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/facebook-pagelike-widget/",
+            "time": "2019-10-06T13:48:06+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/foobox-image-lightbox",
+            "version": "2.7.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/foobox-image-lightbox/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/foobox-image-lightbox.zip?timestamp=1572164948"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/foobox-image-lightbox/"
+        },
+        {
+            "name": "wpackagist-plugin/foogallery",
+            "version": "1.8.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/foogallery/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/foogallery.zip?timestamp=1571862033"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/foogallery/"
+        },
+        {
+            "name": "wpackagist-plugin/instagram-slider-widget",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/instagram-slider-widget/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-slider-widget.zip?timestamp=1565692025"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instagram-slider-widget/",
+            "time": "2019-08-13T10:27:05+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/limit-login-attempts",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/limit-login-attempts/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts.zip?timestamp=1338571569"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/limit-login-attempts/",
+            "time": "2012-06-01T17:26:09+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/media-library-assistant",
+            "version": "2.80",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/media-library-assistant/",
+                "reference": "tags/2.80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/media-library-assistant.2.80.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/media-library-assistant/"
         },
         {
             "name": "wpackagist-plugin/resmushit-image-optimizer",
@@ -640,6 +769,25 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.zip?timestamp=1568228610"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/",
+            "time": "2019-09-11T19:03:30+00:00"
         }
     ],
     "packages-dev": [
@@ -649,12 +797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "dbc979a09f1aba3abb75229820d4cce45685522c"
+                "reference": "f8c8349a4b12a26edfa8b21d07d3dbeb6dcedcfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/dbc979a09f1aba3abb75229820d4cce45685522c",
-                "reference": "dbc979a09f1aba3abb75229820d4cce45685522c",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f8c8349a4b12a26edfa8b21d07d3dbeb6dcedcfa",
+                "reference": "f8c8349a4b12a26edfa8b21d07d3dbeb6dcedcfa",
                 "shasum": ""
             },
             "conflict": {
@@ -857,7 +1005,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-10-29T21:57:40+00:00"
+            "time": "2019-10-29T22:11:03+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -919,6 +1067,10 @@
         "wpackagist-plugin/birds-custom-login": 20,
         "wpackagist-plugin/resmushit-image-optimizer": 20,
         "wpackagist-plugin/duplicate-page": 20,
+        "wpackagist-plugin/w3-total-cache": 20,
+        "wpackagist-plugin/instagram-slider-widget": 20,
+        "wpackagist-plugin/limit-login-attempts": 20,
+        "wpackagist-plugin/facebook-pagelike-widget": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

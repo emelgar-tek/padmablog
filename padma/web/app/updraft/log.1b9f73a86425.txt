@@ -1,0 +1,1145 @@
+0000.005 (0) Opened log file at time: Wed, 30 Oct 2019 19:15:23 +0000 on http://dev.padma.com/wp
+0000.079 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 43.3M | 44.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.108 (0) Free space on disk containing Updraft's temporary directory: 136760.1 MB
+0000.170 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: weekly)
+0000.194 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.287 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1529778870, seconds_ago=42684054)
+0000.360 (0) Semaphore (f, wp_options) was stuck, set lock time to 2019-10-30 19:15:24
+0000.443 (0) Semaphore (f, wp_options) reset to 1
+0000.493 (0) Set semaphore last lock (f) time to 2019-10-30 19:15:24
+0000.518 (0) Semaphore lock (f) complete
+0000.680 (0) Backup run: resumption=0, nonce=1b9f73a86425, file_nonce=1b9f73a86425 begun at=1572462923 (1s ago), job type=backup
+0000.744 (0) Scheduling a resumption (1) after 300 seconds (1572463224) in case this run gets aborted
+0000.814 (0) Checking if we have a zip executable available
+0000.867 (0) Creation of backups of directories: beginning
+0000.952 (0) Beginning creation of dump of plugins (split every: 500 MB)
+0003.985 (0) Total entities for the zip file: 1297 directories, 6468 files (0 skipped as non-modified), 77.9 MB
+0004.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.833 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 100 files added (on-disk size: 247.8 KB)
+0005.946 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 200 files added (on-disk size: 247.8 KB)
+0006.047 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 300 files added (on-disk size: 247.8 KB)
+0006.143 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 400 files added (on-disk size: 247.8 KB)
+0006.239 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 500 files added (on-disk size: 247.8 KB)
+0006.266 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 MB, 6468 files batched, 501 (502) added so far); re-opening (prior size: 247.8 KB)
+0008.030 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 600 files added (on-disk size: 2237.5 KB)
+0008.127 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 700 files added (on-disk size: 2237.5 KB)
+0008.220 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 800 files added (on-disk size: 2237.5 KB)
+0008.322 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 900 files added (on-disk size: 2237.5 KB)
+0008.486 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1000 files added (on-disk size: 2237.5 KB)
+0008.514 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.9 MB, 6468 files batched, 501 (1003) added so far); re-opening (prior size: 2237.5 KB)
+0010.287 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1100 files added (on-disk size: 3444.4 KB)
+0010.418 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1200 files added (on-disk size: 3444.4 KB)
+0010.538 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1300 files added (on-disk size: 3444.4 KB)
+0010.649 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1400 files added (on-disk size: 3444.4 KB)
+0010.765 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1500 files added (on-disk size: 3444.4 KB)
+0010.815 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 6468 files batched, 501 (1504) added so far); re-opening (prior size: 3444.4 KB)
+0013.344 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1600 files added (on-disk size: 4331.1 KB)
+0013.536 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1700 files added (on-disk size: 4331.1 KB)
+0013.697 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1800 files added (on-disk size: 4331.1 KB)
+0013.855 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 1900 files added (on-disk size: 4331.1 KB)
+0013.993 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2000 files added (on-disk size: 4331.1 KB)
+0014.032 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6 MB, 6468 files batched, 501 (2005) added so far); re-opening (prior size: 4331.1 KB)
+0016.287 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2100 files added (on-disk size: 6665 KB)
+0016.399 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2200 files added (on-disk size: 6665 KB)
+0016.510 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2300 files added (on-disk size: 6665 KB)
+0016.630 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2400 files added (on-disk size: 6665 KB)
+0016.743 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2500 files added (on-disk size: 6665 KB)
+0016.773 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 6468 files batched, 501 (2506) added so far); re-opening (prior size: 6665 KB)
+0020.746 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2600 files added (on-disk size: 12138 KB)
+0020.851 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2700 files added (on-disk size: 12138 KB)
+0020.946 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2800 files added (on-disk size: 12138 KB)
+0021.060 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 2900 files added (on-disk size: 12138 KB)
+0021.165 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3000 files added (on-disk size: 12138 KB)
+0021.205 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.7 MB, 6468 files batched, 501 (3007) added so far); re-opening (prior size: 12138 KB)
+0025.609 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3100 files added (on-disk size: 16365.7 KB)
+0025.719 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3200 files added (on-disk size: 16365.7 KB)
+0025.825 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3300 files added (on-disk size: 16365.7 KB)
+0025.934 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3400 files added (on-disk size: 16365.7 KB)
+0026.117 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3500 files added (on-disk size: 16365.7 KB)
+0026.158 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 6468 files batched, 501 (3508) added so far); re-opening (prior size: 16365.7 KB)
+0029.077 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3600 files added (on-disk size: 17092.3 KB)
+0029.185 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3700 files added (on-disk size: 17092.3 KB)
+0029.283 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3800 files added (on-disk size: 17092.3 KB)
+0029.397 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 3900 files added (on-disk size: 17092.3 KB)
+0029.496 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4000 files added (on-disk size: 17092.3 KB)
+0029.533 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.8 MB, 6468 files batched, 501 (4009) added so far); re-opening (prior size: 17092.3 KB)
+0032.531 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4100 files added (on-disk size: 18895.3 KB)
+0032.650 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4200 files added (on-disk size: 18895.3 KB)
+0032.753 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4300 files added (on-disk size: 18895.3 KB)
+0032.875 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4400 files added (on-disk size: 18895.3 KB)
+0032.994 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4500 files added (on-disk size: 18895.3 KB)
+0033.033 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 MB, 6468 files batched, 501 (4510) added so far); re-opening (prior size: 18895.3 KB)
+0036.316 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4600 files added (on-disk size: 19500.7 KB)
+0036.504 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4700 files added (on-disk size: 19500.7 KB)
+0036.619 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4800 files added (on-disk size: 19500.7 KB)
+0036.779 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 4900 files added (on-disk size: 19500.7 KB)
+0036.889 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5000 files added (on-disk size: 19500.7 KB)
+0036.925 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 6468 files batched, 501 (5011) added so far); re-opening (prior size: 19500.7 KB)
+0040.207 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5100 files added (on-disk size: 20148.9 KB)
+0040.317 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5200 files added (on-disk size: 20148.9 KB)
+0040.421 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5300 files added (on-disk size: 20148.9 KB)
+0040.530 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5400 files added (on-disk size: 20148.9 KB)
+0040.643 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5500 files added (on-disk size: 20148.9 KB)
+0040.683 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 6468 files batched, 501 (5512) added so far); re-opening (prior size: 20148.9 KB)
+0043.793 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5600 files added (on-disk size: 21349.2 KB)
+0043.938 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5700 files added (on-disk size: 21349.2 KB)
+0044.049 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5800 files added (on-disk size: 21349.2 KB)
+0044.169 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 5900 files added (on-disk size: 21349.2 KB)
+0044.291 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 6000 files added (on-disk size: 21349.2 KB)
+0044.337 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.2 MB, 6468 files batched, 501 (6013) added so far); re-opening (prior size: 21349.2 KB)
+0047.856 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 6100 files added (on-disk size: 22361.9 KB)
+0047.963 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 6200 files added (on-disk size: 22361.9 KB)
+0048.080 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 6300 files added (on-disk size: 22361.9 KB)
+0048.206 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip.tmp: 6400 files added (on-disk size: 22361.9 KB)
+0051.980 (0) Created plugins zip (0) - 23199.4 KB in 51 s (454.9 KB/s) (sha1: 538d886e899ab21c25c3ab3e31081a2d5d2b2c79, sha256: aa058766f6ac0a2c79e8f39f8ae5d5811acbb806b848fcdc022733efb7685bf1)
+0052.045 (0) Beginning creation of dump of themes (split every: 500 MB)
+0052.676 (0) Total entities for the zip file: 279 directories, 1628 files (0 skipped as non-modified), 18.1 MB
+0052.745 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0052.817 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0052.885 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0052.952 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0053.024 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0053.051 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 MB, 1628 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0054.836 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 600 files added (on-disk size: 1765.9 KB)
+0054.910 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 700 files added (on-disk size: 1765.9 KB)
+0054.981 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 800 files added (on-disk size: 1765.9 KB)
+0055.051 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 900 files added (on-disk size: 1765.9 KB)
+0055.133 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1000 files added (on-disk size: 1765.9 KB)
+0055.160 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.4 MB, 1628 files batched, 501 (1002) added so far); re-opening (prior size: 1765.9 KB)
+0057.047 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1100 files added (on-disk size: 7863 KB)
+0057.159 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1200 files added (on-disk size: 7863 KB)
+0057.271 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1300 files added (on-disk size: 7863 KB)
+0057.372 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1400 files added (on-disk size: 7863 KB)
+0057.479 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1500 files added (on-disk size: 7863 KB)
+0057.513 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 1628 files batched, 501 (1503) added so far); re-opening (prior size: 7863 KB)
+0059.567 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip.tmp: 1600 files added (on-disk size: 8962.1 KB)
+0061.374 (0) Created themes zip (0) - 10620.7 KB in 9.3 s (1142.6 KB/s) (sha1: 4fdbe79074eb6bcc1d9aafbfb0898a2b7c9c5c41, sha256: 3001d9f2b281aa4c9d2f7f58a4aa06126dbdcc8c42ed19f3a5aee4d7e3855e39)
+0061.442 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0061.474 (0) Looking for candidates to backup in: /srv/www/dev.padma.com/current/web/app/uploads
+0061.505 (0) finding files: 2015: adding to list (1)
+0061.532 (0) finding files: .DS_Store: adding to list (2)
+0061.556 (0) finding files: cache: adding to list (3)
+0061.587 (0) finding files: lets-blog: adding to list (4)
+0061.610 (0) finding files: .gitkeep: adding to list (5)
+0061.638 (0) finding files: other: adding to list (6)
+0061.669 (0) finding files: 2017: adding to list (7)
+0061.701 (0) finding files: 2019: adding to list (8)
+0061.729 (0) finding files: 2018: adding to list (9)
+0061.757 (0) finding files: 2016: adding to list (10)
+0061.785 (0) finding files: redux: adding to list (11)
+0061.813 (0) Beginning creation of dump of uploads (split every: 500 MB)
+0067.219 (0) Total entities for the zip file: 1702 directories, 18947 files (0 skipped as non-modified), 1633.6 MB
+0067.249 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0069.345 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 100 files added (on-disk size: 334.8 KB)
+0069.383 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 18947 files batched, 108 (109) added so far); re-opening (prior size: 334.8 KB)
+0071.900 (0) A useful amount of data was added after this amount of zip processing: 2.7 s (normalised: 2.7 s, rate: 9560.2 KB/s)
+0071.956 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6803050041199, normalised_time=2.6777723241042, max_time=71.924993038177, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0072.123 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 200 files added (on-disk size: 25226.2 KB)
+0072.223 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 300 files added (on-disk size: 25226.2 KB)
+0072.326 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 400 files added (on-disk size: 25226.2 KB)
+0072.437 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 500 files added (on-disk size: 25226.2 KB)
+0072.540 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 600 files added (on-disk size: 25226.2 KB)
+0072.575 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (96.2 MB, 18947 files batched, 501 (610) added so far); re-opening (prior size: 25226.2 KB)
+0082.779 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 700 files added (on-disk size: 123788.7 KB)
+0082.889 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 800 files added (on-disk size: 123788.7 KB)
+0082.992 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 900 files added (on-disk size: 123788.7 KB)
+0083.102 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1000 files added (on-disk size: 123788.7 KB)
+0083.219 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1100 files added (on-disk size: 123788.7 KB)
+0083.264 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (84 MB, 18947 files batched, 501 (1111) added so far); re-opening (prior size: 123788.7 KB)
+0101.773 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1200 files added (on-disk size: 209891 KB)
+0101.878 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1300 files added (on-disk size: 209891 KB)
+0101.979 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1400 files added (on-disk size: 209891 KB)
+0102.095 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1500 files added (on-disk size: 209891 KB)
+0102.212 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1600 files added (on-disk size: 209891 KB)
+0102.250 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (45 MB, 18947 files batched, 501 (1612) added so far); re-opening (prior size: 209891 KB)
+0120.917 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1700 files added (on-disk size: 256120.8 KB)
+0121.065 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1800 files added (on-disk size: 256120.8 KB)
+0121.188 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 1900 files added (on-disk size: 256120.8 KB)
+0121.291 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2000 files added (on-disk size: 256120.8 KB)
+0121.404 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2100 files added (on-disk size: 256120.8 KB)
+0121.441 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (54.3 MB, 18947 files batched, 501 (2113) added so far); re-opening (prior size: 256120.8 KB)
+0145.987 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2200 files added (on-disk size: 311787.3 KB)
+0146.119 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2300 files added (on-disk size: 311787.3 KB)
+0146.237 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2400 files added (on-disk size: 311787.3 KB)
+0146.369 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2500 files added (on-disk size: 311787.3 KB)
+0146.480 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2600 files added (on-disk size: 311787.3 KB)
+0146.521 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (53.8 MB, 18947 files batched, 501 (2614) added so far); re-opening (prior size: 311787.3 KB)
+0179.290 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2700 files added (on-disk size: 366994.2 KB)
+0179.406 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2800 files added (on-disk size: 366994.2 KB)
+0179.547 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 2900 files added (on-disk size: 366994.2 KB)
+0179.666 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3000 files added (on-disk size: 366994.2 KB)
+0179.800 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3100 files added (on-disk size: 366994.2 KB)
+0179.843 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (52.6 MB, 18947 files batched, 501 (3115) added so far); re-opening (prior size: 366994.2 KB)
+0210.122 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3200 files added (on-disk size: 421011.9 KB)
+0210.227 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3300 files added (on-disk size: 421011.9 KB)
+0210.341 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3400 files added (on-disk size: 421011.9 KB)
+0210.493 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3500 files added (on-disk size: 421011.9 KB)
+0210.633 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3600 files added (on-disk size: 421011.9 KB)
+0210.680 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (70.1 MB, 18947 files batched, 501 (3616) added so far); re-opening (prior size: 421011.9 KB)
+0246.063 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip.tmp: 3700 files added (on-disk size: 492871.8 KB)
+0246.161 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (17.2 MB, 146 (3762) files added so far); last ratio: 1; re-opening (prior size: 492871.8 KB)
+0284.012 (0) The time we have been running (283.9) is approaching the resumption interval (300) - increasing resumption interval to 314
+0284.064 (0) The scheduled resumption is within 45 seconds - will reschedule
+0284.127 (0) Rescheduling resumption 1: moving to 359 seconds from now (1572463566)
+0284.214 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 314 + 45 = 359
+0284.243 (0) Zip size is at/near split limit (498.5 MB / 500 MB) - bumping index (from: 0)
+0312.546 (0) Created uploads zip (0) - 510473.2 KB in 222.4 s (2295 KB/s) (checksums: sha1: 9c6e29d1584f46be43dda89698825315ed93c5bf, sha256: 517964a6175ec6dd2ae149072460121afd6d4220ec63876795cc112e01c27f5e)
+0312.629 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (3763) files added so far); re-opening (prior size: 0 KB)
+0312.735 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 3800 files added (on-disk size: 60.4 KB)
+0312.841 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 3900 files added (on-disk size: 60.4 KB)
+0312.949 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4000 files added (on-disk size: 60.4 KB)
+0313.064 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4100 files added (on-disk size: 60.4 KB)
+0313.175 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4200 files added (on-disk size: 60.4 KB)
+0313.255 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (53 MB, 18947 files batched, 501 (4264) added so far); re-opening (prior size: 60.4 KB)
+0318.752 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4300 files added (on-disk size: 54404.1 KB)
+0318.878 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4400 files added (on-disk size: 54404.1 KB)
+0319.003 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4500 files added (on-disk size: 54404.1 KB)
+0319.111 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4600 files added (on-disk size: 54404.1 KB)
+0319.236 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4700 files added (on-disk size: 54404.1 KB)
+0319.326 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (50.8 MB, 18947 files batched, 501 (4765) added so far); re-opening (prior size: 54404.1 KB)
+0328.499 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4800 files added (on-disk size: 106515.7 KB)
+0328.695 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 4900 files added (on-disk size: 106515.7 KB)
+0328.817 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5000 files added (on-disk size: 106515.7 KB)
+0328.931 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5100 files added (on-disk size: 106515.7 KB)
+0329.041 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5200 files added (on-disk size: 106515.7 KB)
+0329.129 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (53.2 MB, 18947 files batched, 501 (5266) added so far); re-opening (prior size: 106515.7 KB)
+0341.881 (0) The time we have been running (341.8) is approaching the resumption interval (359) - increasing resumption interval to 372
+0342.016 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5300 files added (on-disk size: 161111 KB)
+0342.117 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5400 files added (on-disk size: 161111 KB)
+0342.217 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5500 files added (on-disk size: 161111 KB)
+0342.336 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5600 files added (on-disk size: 161111 KB)
+0342.439 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5700 files added (on-disk size: 161111 KB)
+0342.516 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (52.1 MB, 18947 files batched, 501 (5767) added so far); re-opening (prior size: 161111 KB)
+0358.265 (0) The time we have been running (358) is approaching the resumption interval (372) - increasing resumption interval to 388
+0359.026 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5800 files added (on-disk size: 214527.3 KB)
+0359.162 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 5900 files added (on-disk size: 214527.3 KB)
+0360.190 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6000 files added (on-disk size: 214527.3 KB)
+0361.374 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (25.4 MB, 234 (6001) files added so far); re-opening (prior size: 214527.3 KB)
+0376.773 (0) The time we have been running (376.6) is approaching the resumption interval (388) - increasing resumption interval to 407
+0376.941 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6100 files added (on-disk size: 240635.7 KB)
+0377.045 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6200 files added (on-disk size: 240635.7 KB)
+0377.145 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6300 files added (on-disk size: 240635.7 KB)
+0377.250 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6400 files added (on-disk size: 240635.7 KB)
+0377.352 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6500 files added (on-disk size: 240635.7 KB)
+0377.379 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (58.3 MB, 18947 files batched, 501 (6502) added so far); re-opening (prior size: 240635.7 KB)
+0397.629 (0) The time we have been running (397.4) is approaching the resumption interval (407) - increasing resumption interval to 428
+0398.378 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6600 files added (on-disk size: 300405.8 KB)
+0398.523 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6700 files added (on-disk size: 300405.8 KB)
+0398.780 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6800 files added (on-disk size: 300405.8 KB)
+0399.071 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 6900 files added (on-disk size: 300405.8 KB)
+0399.284 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7000 files added (on-disk size: 300405.8 KB)
+0399.404 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (45.9 MB, 18947 files batched, 501 (7003) added so far); re-opening (prior size: 300405.8 KB)
+0421.745 (0) The time we have been running (421.6) is approaching the resumption interval (428) - increasing resumption interval to 452
+0421.937 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7100 files added (on-disk size: 347540 KB)
+0422.059 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7200 files added (on-disk size: 347540 KB)
+0422.165 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7300 files added (on-disk size: 347540 KB)
+0422.266 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7400 files added (on-disk size: 347540 KB)
+0422.369 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7500 files added (on-disk size: 347540 KB)
+0422.402 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (47.3 MB, 18947 files batched, 501 (7504) added so far); re-opening (prior size: 347540 KB)
+0451.492 (0) The time we have been running (451.3) is approaching the resumption interval (452) - increasing resumption interval to 482
+0451.851 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7600 files added (on-disk size: 396094.9 KB)
+0451.958 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7700 files added (on-disk size: 396094.9 KB)
+0452.215 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7800 files added (on-disk size: 396094.9 KB)
+0452.325 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 7900 files added (on-disk size: 396094.9 KB)
+0452.465 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8000 files added (on-disk size: 396094.9 KB)
+0452.553 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (61.5 MB, 18947 files batched, 501 (8005) added so far); re-opening (prior size: 396094.9 KB)
+0498.374 (0) The time we have been running (497.4) is approaching the resumption interval (482) - increasing resumption interval to 528
+0499.393 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8100 files added (on-disk size: 459184.7 KB)
+0499.655 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8200 files added (on-disk size: 459184.7 KB)
+0499.907 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8300 files added (on-disk size: 459184.7 KB)
+0500.111 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8400 files added (on-disk size: 459184.7 KB)
+0500.231 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8500 files added (on-disk size: 459184.7 KB)
+0500.351 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.7 MB, 18947 files batched, 501 (8506) added so far); re-opening (prior size: 459184.7 KB)
+0556.756 (0) The time we have been running (556.4) is approaching the resumption interval (528) - increasing resumption interval to 587
+0557.064 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8600 files added (on-disk size: 463668.1 KB)
+0557.206 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8700 files added (on-disk size: 463668.1 KB)
+0557.339 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8800 files added (on-disk size: 463668.1 KB)
+0557.466 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 8900 files added (on-disk size: 463668.1 KB)
+0557.630 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9000 files added (on-disk size: 463668.1 KB)
+0557.676 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.6 MB, 18947 files batched, 501 (9007) added so far); re-opening (prior size: 463668.1 KB)
+0590.830 (0) The time we have been running (590.7) is approaching the resumption interval (587) - increasing resumption interval to 621
+0591.093 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9100 files added (on-disk size: 465078.7 KB)
+0591.236 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9200 files added (on-disk size: 465078.7 KB)
+0591.375 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9300 files added (on-disk size: 465078.7 KB)
+0591.508 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9400 files added (on-disk size: 465078.7 KB)
+0591.663 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9500 files added (on-disk size: 465078.7 KB)
+0591.698 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 MB, 18947 files batched, 501 (9508) added so far); re-opening (prior size: 465078.7 KB)
+0626.703 (0) The time we have been running (626.6) is approaching the resumption interval (621) - increasing resumption interval to 657
+0626.781 (0) The scheduled resumption is within 45 seconds - will reschedule
+0626.848 (0) Rescheduling resumption 1: moving to 702 seconds from now (1572464252)
+0626.945 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 657 + 45 = 702
+0627.172 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9600 files added (on-disk size: 466604.4 KB)
+0627.290 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9700 files added (on-disk size: 466604.4 KB)
+0627.452 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9800 files added (on-disk size: 466604.4 KB)
+0627.795 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 9900 files added (on-disk size: 466604.4 KB)
+0627.985 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10000 files added (on-disk size: 466604.4 KB)
+0628.040 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.1 MB, 18947 files batched, 501 (10009) added so far); re-opening (prior size: 466604.4 KB)
+0668.108 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10100 files added (on-disk size: 469713.9 KB)
+0668.228 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10200 files added (on-disk size: 469713.9 KB)
+0668.393 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10300 files added (on-disk size: 469713.9 KB)
+0668.538 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10400 files added (on-disk size: 469713.9 KB)
+0668.648 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10500 files added (on-disk size: 469713.9 KB)
+0668.720 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.1 MB, 18947 files batched, 501 (10510) added so far); re-opening (prior size: 469713.9 KB)
+0704.561 (0) The time we have been running (704.5) is approaching the resumption interval (702) - increasing resumption interval to 735
+0704.797 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10600 files added (on-disk size: 479419.8 KB)
+0704.951 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10700 files added (on-disk size: 479419.8 KB)
+0705.087 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10800 files added (on-disk size: 479419.8 KB)
+0705.305 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 10900 files added (on-disk size: 479419.8 KB)
+0705.427 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11000 files added (on-disk size: 479419.8 KB)
+0705.468 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.8 MB, 18947 files batched, 501 (11011) added so far); re-opening (prior size: 479419.8 KB)
+0743.832 (0) The time we have been running (743.7) is approaching the resumption interval (735) - increasing resumption interval to 774
+0744.058 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11100 files added (on-disk size: 484274.7 KB)
+0744.168 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11200 files added (on-disk size: 484274.7 KB)
+0744.280 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11300 files added (on-disk size: 484274.7 KB)
+0744.392 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11400 files added (on-disk size: 484274.7 KB)
+0744.532 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11500 files added (on-disk size: 484274.7 KB)
+0744.575 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 18947 files batched, 501 (11512) added so far); re-opening (prior size: 484274.7 KB)
+0793.628 (0) The time we have been running (793.5) is approaching the resumption interval (774) - increasing resumption interval to 824
+0794.486 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11600 files added (on-disk size: 484865.7 KB)
+0794.632 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11700 files added (on-disk size: 484865.7 KB)
+0794.848 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11800 files added (on-disk size: 484865.7 KB)
+0795.148 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 11900 files added (on-disk size: 484865.7 KB)
+0795.360 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12000 files added (on-disk size: 484865.7 KB)
+0795.397 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 18947 files batched, 501 (12013) added so far); re-opening (prior size: 484865.7 KB)
+0840.061 (0) The time we have been running (839.9) is approaching the resumption interval (824) - increasing resumption interval to 870
+0840.606 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12100 files added (on-disk size: 486743.8 KB)
+0840.753 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12200 files added (on-disk size: 486743.8 KB)
+0840.903 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12300 files added (on-disk size: 486743.8 KB)
+0841.028 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12400 files added (on-disk size: 486743.8 KB)
+0841.141 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12500 files added (on-disk size: 486743.8 KB)
+0841.181 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.4 MB, 18947 files batched, 501 (12514) added so far); re-opening (prior size: 486743.8 KB)
+0894.211 (0) The time we have been running (894.1) is approaching the resumption interval (870) - increasing resumption interval to 925
+0894.437 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12600 files added (on-disk size: 491098.5 KB)
+0894.552 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12700 files added (on-disk size: 491098.5 KB)
+0894.730 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12800 files added (on-disk size: 491098.5 KB)
+0894.852 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 12900 files added (on-disk size: 491098.5 KB)
+0894.986 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13000 files added (on-disk size: 491098.5 KB)
+0895.033 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 18947 files batched, 501 (13015) added so far); re-opening (prior size: 491098.5 KB)
+0934.568 (0) The time we have been running (934.5) is approaching the resumption interval (925) - increasing resumption interval to 965
+0934.793 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13100 files added (on-disk size: 492254.6 KB)
+0934.911 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13200 files added (on-disk size: 492254.6 KB)
+0935.061 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13300 files added (on-disk size: 492254.6 KB)
+0935.182 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13400 files added (on-disk size: 492254.6 KB)
+0935.300 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13500 files added (on-disk size: 492254.6 KB)
+0935.378 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 MB, 18947 files batched, 501 (13516) added so far); re-opening (prior size: 492254.6 KB)
+0973.893 (0) The time we have been running (973.8) is approaching the resumption interval (965) - increasing resumption interval to 1004
+0974.112 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13600 files added (on-disk size: 493153.7 KB)
+0974.218 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13700 files added (on-disk size: 493153.7 KB)
+0974.332 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13800 files added (on-disk size: 493153.7 KB)
+0974.449 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 13900 files added (on-disk size: 493153.7 KB)
+0974.561 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14000 files added (on-disk size: 493153.7 KB)
+0974.605 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 18947 files batched, 501 (14017) added so far); re-opening (prior size: 493153.7 KB)
+1011.981 (0) The time we have been running (1011.9) is approaching the resumption interval (1004) - increasing resumption interval to 1042
+1012.287 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14100 files added (on-disk size: 493735.8 KB)
+1012.440 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14200 files added (on-disk size: 493735.8 KB)
+1012.619 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14300 files added (on-disk size: 493735.8 KB)
+1012.765 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14400 files added (on-disk size: 493735.8 KB)
+1012.879 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14500 files added (on-disk size: 493735.8 KB)
+1012.924 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 18947 files batched, 501 (14518) added so far); re-opening (prior size: 493735.8 KB)
+1050.935 (0) The time we have been running (1050.8) is approaching the resumption interval (1042) - increasing resumption interval to 1081
+1051.188 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14600 files added (on-disk size: 494836.3 KB)
+1051.340 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14700 files added (on-disk size: 494836.3 KB)
+1051.496 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14800 files added (on-disk size: 494836.3 KB)
+1051.649 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 14900 files added (on-disk size: 494836.3 KB)
+1051.817 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 15000 files added (on-disk size: 494836.3 KB)
+1051.884 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6 MB, 18947 files batched, 501 (15019) added so far); re-opening (prior size: 494836.3 KB)
+1090.482 (0) The time we have been running (1090.4) is approaching the resumption interval (1081) - increasing resumption interval to 1121
+1090.774 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 15100 files added (on-disk size: 495826.4 KB)
+1090.918 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 15200 files added (on-disk size: 495826.4 KB)
+1091.029 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 15300 files added (on-disk size: 495826.4 KB)
+1091.148 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 15400 files added (on-disk size: 495826.4 KB)
+1091.284 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip.tmp: 15500 files added (on-disk size: 495826.4 KB)
+1091.332 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (37.3 MB, 18947 files batched, 501 (15520) added so far); re-opening (prior size: 495826.4 KB)
+1133.737 (0) The time we have been running (1133.6) is approaching the resumption interval (1121) - increasing resumption interval to 1164
+1133.796 (0) Zip size is at/near split limit (519 MB / 500 MB) - bumping index (from: 1)
+1162.024 (0) The time we have been running (1161.9) is approaching the resumption interval (1164) - increasing resumption interval to 1192
+1162.095 (0) Created uploads zip (1) - 531429.1 KB in 821.2 s (647.1 KB/s) (checksums: sha1: cbd311ca4a176c1b33cc937cd21dfae25278aa3a, sha256: e57c714497caa49a884d79683be23c699f48208712dcacd1391dc8767602aba3)
+1162.172 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (15521) files added so far); re-opening (prior size: 0 KB)
+1162.298 (0) The time we have been running (1162.2) is approaching the resumption interval (1192) - increasing resumption interval to 1193
+1162.451 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 15600 files added (on-disk size: 2.6 KB)
+1162.689 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 15700 files added (on-disk size: 2.6 KB)
+1162.840 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 15800 files added (on-disk size: 2.6 KB)
+1162.965 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 15900 files added (on-disk size: 2.6 KB)
+1163.069 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16000 files added (on-disk size: 2.6 KB)
+1163.113 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (86 MB, 18947 files batched, 501 (16022) added so far); re-opening (prior size: 2.6 KB)
+1171.173 (0) The time we have been running (1171) is approaching the resumption interval (1193) - increasing resumption interval to 1202
+1171.446 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16100 files added (on-disk size: 88188.6 KB)
+1171.615 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16200 files added (on-disk size: 88188.6 KB)
+1171.780 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16300 files added (on-disk size: 88188.6 KB)
+1171.902 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16400 files added (on-disk size: 88188.6 KB)
+1172.020 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16500 files added (on-disk size: 88188.6 KB)
+1172.103 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (105.3 MB, 18947 files batched, 501 (16523) added so far); re-opening (prior size: 88188.6 KB)
+1191.463 (0) The time we have been running (1191.3) is approaching the resumption interval (1202) - increasing resumption interval to 1222
+1191.608 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16600 files added (on-disk size: 196096.4 KB)
+1191.726 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16700 files added (on-disk size: 196096.4 KB)
+1191.838 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16800 files added (on-disk size: 196096.4 KB)
+1192.048 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 16900 files added (on-disk size: 196096.4 KB)
+1192.182 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17000 files added (on-disk size: 196096.4 KB)
+1192.239 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (91.8 MB, 18947 files batched, 501 (17024) added so far); re-opening (prior size: 196096.4 KB)
+1215.417 (0) The time we have been running (1215.3) is approaching the resumption interval (1222) - increasing resumption interval to 1246
+1215.562 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17100 files added (on-disk size: 290225.8 KB)
+1215.661 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17200 files added (on-disk size: 290225.8 KB)
+1215.799 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17300 files added (on-disk size: 290225.8 KB)
+1215.917 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17400 files added (on-disk size: 290225.8 KB)
+1216.021 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17500 files added (on-disk size: 290225.8 KB)
+1216.065 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (77.9 MB, 18947 files batched, 501 (17525) added so far); re-opening (prior size: 290225.8 KB)
+1244.890 (0) The time we have been running (1244.5) is approaching the resumption interval (1246) - increasing resumption interval to 1275
+1245.163 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17600 files added (on-disk size: 370103 KB)
+1245.484 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17700 files added (on-disk size: 370103 KB)
+1245.872 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17800 files added (on-disk size: 370103 KB)
+1245.992 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 17900 files added (on-disk size: 370103 KB)
+1246.155 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 18000 files added (on-disk size: 370103 KB)
+1246.286 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (60.3 MB, 18947 files batched, 501 (18026) added so far); re-opening (prior size: 370103 KB)
+1285.156 (0) The time we have been running (1285.1) is approaching the resumption interval (1275) - increasing resumption interval to 1316
+1285.210 (0) The scheduled resumption is within 45 seconds - will reschedule
+1285.260 (0) Rescheduling resumption 1: moving to 600 seconds from now (1572464809)
+1285.346 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1316 + 45 = 1361
+1285.524 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 18100 files added (on-disk size: 431959.2 KB)
+1285.640 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 18200 files added (on-disk size: 431959.2 KB)
+1285.764 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 18300 files added (on-disk size: 431959.2 KB)
+1285.880 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip.tmp: 18400 files added (on-disk size: 431959.2 KB)
+1286.082 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (71.2 MB, 450 (18476) files added so far); last ratio: 1; re-opening (prior size: 431959.2 KB)
+1327.454 (0) Zip size is at/near split limit (493.1 MB / 500 MB) - bumping index (from: 2)
+1352.103 (0) The time we have been running (1352) is approaching the resumption interval (1361) - increasing resumption interval to 1383
+1352.163 (0) Created uploads zip (2) - 504960.1 KB in 165.4 s (3053.6 KB/s) (checksums: sha1: 5059934d63c492961bc09130e6c12f3f53317ff5, sha256: 3fe626b9aa8160da7d6675d1a87c37e4fdbaaa16a66b5123c6358f6668a6eda0)
+1352.238 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (18477) files added so far); re-opening (prior size: 0 KB)
+1352.320 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip.tmp: 18500 files added (on-disk size: 7 KB)
+1352.437 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip.tmp: 18600 files added (on-disk size: 7 KB)
+1352.578 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip.tmp: 18700 files added (on-disk size: 7 KB)
+1352.872 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip.tmp: 18800 files added (on-disk size: 7 KB)
+1353.310 (0) Zip: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip.tmp: 18900 files added (on-disk size: 7 KB)
+1359.507 (0) The time we have been running (1359.4) is approaching the resumption interval (1383) - increasing resumption interval to 1390
+1361.947 (0) Created uploads zip (3) - 64435.3 KB in 9.8 s (6605.8 KB/s) (sha1: e5d0867ca6294cbc2e6a5836a29aafc03a10416e, sha256: ba51cc0b30df3575f028c693674c4058e29aef3104c0e0eb2b48eebd44c82b68)
+1362.020 (0) Beginning backup of other directories found in the content directory (index: 0)
+1362.048 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+1362.078 (0) Looking for candidates to backup in: /srv/www/dev.padma.com/current/web/app
+1362.104 (0) finding files: upgrade: skipping: excluded by options
+1362.136 (0) finding files: .DS_Store: adding to list (1)
+1362.166 (0) finding files: plugins: skipping: this is the plugins directory
+1362.191 (0) finding files: uploads: skipping: this is the uploads directory
+1362.216 (0) finding files: updraft: skipping: this is the updraft directory
+1362.246 (0) finding files: themes: skipping: this is the themes directory
+1362.275 (0) finding files: mu-plugins: adding to list (2)
+1362.343 (0) Total entities for the zip file: 1 directories, 4 files (0 skipped as non-modified), 0 MB
+1362.469 (0) The time we have been running (1362.4) is approaching the resumption interval (1390) - increasing resumption interval to 1393
+1362.588 (0) Created others zip (0) - 3.4 KB in 0.3 s (12 KB/s) (sha1: 8dc155ec46f05477015e76441f9d5ca507a7e6e4, sha256: b6ff5a7cbfbedabd5676728a57b852f832e7b64212b8e1f06efcde66640db466)
+1362.706 (0) Saving backup status to database (elements: 11)
+1362.840 (0) No database backup (wp) - not part of this run
+1362.971 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1363.001 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1363.025 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1363.053 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+1363.084 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+1363.113 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+1363.145 (0) backup_2019-10-30-1215_Padma_1b9f73a86425-others.zip: others: This file has not yet been successfully uploaded: will queue
+1363.172 (0) Saving backup history. Total backup size: 1.6 GB
+1363.336 (0) Requesting upload of the files that have not yet been successfully uploaded (7)
+1363.420 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+1363.453 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-3f1904527b3bf4ca79664413523e44e7)
+1364.463 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip (chunks: 5) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip
+1364.649 (0) Amazon S3: chunked upload: got multipart ID: r5JmtwdnkUOZzZ69XpuN_fP1Nl8a5ku6GBAAJ6SeehnlahNeJALebX5jUH08G_rYDhVxNT_JCcnWLA1Dg.JKUfpXfkUXD_vhSp75LBpbto6GSVaHftpYHHdKhJjT5F_i
+1374.908 (0) The time we have been running (1374.8) is approaching the resumption interval (1393) - increasing resumption interval to 1405
+1374.982 (0) S3 chunked upload: 20 % uploaded (1, "9722ad8cb7ee75b4316d230098642179")
+1379.337 (0) The time we have been running (1379.2) is approaching the resumption interval (1405) - increasing resumption interval to 1410
+1379.393 (0) S3 chunked upload: 40 % uploaded (2, "8658375e827a9a3042b3357b1ffbf619")
+1384.237 (0) The time we have been running (1384.1) is approaching the resumption interval (1410) - increasing resumption interval to 1415
+1384.305 (0) S3 chunked upload: 60 % uploaded (3, "41f6163a386779abcbe373a07494f7fe")
+1389.350 (0) The time we have been running (1389.3) is approaching the resumption interval (1415) - increasing resumption interval to 1420
+1389.412 (0) S3 chunked upload: 80 % uploaded (4, "da1351d46aaa445f72820e1689eda7f1")
+1391.953 (0) The time we have been running (1391.9) is approaching the resumption interval (1420) - increasing resumption interval to 1422
+1392.009 (0) S3 chunked upload: 100 % uploaded (5, "a64435d1bda8b9614e5c12a00708ebba")
+1392.090 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+1392.376 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+1392.420 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip
+1392.495 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-plugins.zip: OK
+1392.529 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip (chunks: 3) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip
+1392.660 (0) Amazon S3: chunked upload: got multipart ID: 41PkJEj961bHquO8NBV29WJaIB9R2KkNnblRybkAS.rB2I16Nb2DtV6myaac1ywIrzVf5s6DJLooW_lDba2yDwmBKGsuANTqgBxqxi4Z5StS6Xw2nbZg.FnPYLLrxDhG
+1396.947 (0) The time we have been running (1396.9) is approaching the resumption interval (1422) - increasing resumption interval to 1427
+1397.009 (0) S3 chunked upload: 33.3 % uploaded (1, "1f44f8f1ac6eaec157dd216a2ab7f12c")
+1401.167 (0) The time we have been running (1401.1) is approaching the resumption interval (1427) - increasing resumption interval to 1432
+1401.225 (0) S3 chunked upload: 66.7 % uploaded (2, "d39d3f426140bedb97c09c7aacd57cc5")
+1401.816 (0) S3 chunked upload: 100 % uploaded (3, "9bfab562a194a6fdd74f0199aee2d445")
+1401.917 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+1402.150 (0) Amazon S3: upload (themes0): re-assembly succeeded
+1402.199 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip
+1402.257 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-themes.zip: OK
+1402.284 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip (chunks: 100) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip
+1402.413 (0) Amazon S3: chunked upload: got multipart ID: oWj5F25rfvBE24CX0PifuiRagtQT6Dj3eGtSwguYm1L9DIokalg4XhxPVRzSvVgFpQfGzPQChAQI6GAHIwq_lGrrsVmBmCupIXCvvJ.qY1_SZZKGUcebR6A7ApDAB0DQ
+1406.508 (0) The time we have been running (1406.4) is approaching the resumption interval (1432) - increasing resumption interval to 1437
+1406.569 (0) S3 chunked upload: 1 % uploaded (1, "b08ed97b71fd87f51dc4350b3fdade25")
+1410.711 (0) The time we have been running (1410.6) is approaching the resumption interval (1437) - increasing resumption interval to 1441
+1410.774 (0) S3 chunked upload: 2 % uploaded (2, "72cd73fc04affd4f359911d8be88b9d5")
+1415.176 (0) The time we have been running (1415.1) is approaching the resumption interval (1441) - increasing resumption interval to 1446
+1415.238 (0) S3 chunked upload: 3 % uploaded (3, "1d0f5b0a1c79380b4cd0448101ba13e8")
+1421.063 (0) The time we have been running (1421) is approaching the resumption interval (1446) - increasing resumption interval to 1451
+1421.156 (0) S3 chunked upload: 4 % uploaded (4, "0859e267c0f217c56276973e0e9ae2b3")
+1508.396 (0) The time we have been running (1508.2) is approaching the resumption interval (1451) - increasing resumption interval to 1539
+1508.470 (0) S3 chunked upload: 5 % uploaded (5, "14ba3a9f6fecaf4edb08da6e2e006684")
+1517.729 (0) The time we have been running (1517.6) is approaching the resumption interval (1539) - increasing resumption interval to 1548
+1517.797 (0) S3 chunked upload: 6 % uploaded (6, "ace5791348eb2416e3accf55734afdc8")
+1522.669 (0) The time we have been running (1522.5) is approaching the resumption interval (1548) - increasing resumption interval to 1553
+1522.791 (0) S3 chunked upload: 7 % uploaded (7, "f30fb5bb97cdebc3a711039defca06bb")
+1530.878 (0) The time we have been running (1530.7) is approaching the resumption interval (1553) - increasing resumption interval to 1561
+1530.942 (0) S3 chunked upload: 8 % uploaded (8, "f9442080c0000fbbedcadb938f648be0")
+1537.366 (0) The time we have been running (1537.3) is approaching the resumption interval (1561) - increasing resumption interval to 1568
+1537.477 (0) S3 chunked upload: 9 % uploaded (9, "4cfa255c1c2d74c211ec343b43f56e06")
+1546.802 (0) The time we have been running (1546.3) is approaching the resumption interval (1568) - increasing resumption interval to 1577
+1546.976 (0) S3 chunked upload: 10 % uploaded (10, "99868e15d610403610d2aaa3f7db131b")
+1560.139 (0) The time we have been running (1560) is approaching the resumption interval (1577) - increasing resumption interval to 1591
+1560.203 (0) S3 chunked upload: 11 % uploaded (11, "025e3b6288ba2a48a8156aa1f7aa26c2")
+1593.844 (0) The time we have been running (1593.5) is approaching the resumption interval (1591) - increasing resumption interval to 1624
+1594.062 (0) S3 chunked upload: 12 % uploaded (12, "f4833d798e314683b4ed26db797e2976")
+1705.904 (0) The time we have been running (1704.4) is approaching the resumption interval (1624) - increasing resumption interval to 1735
+1707.116 (0) S3 chunked upload: 13 % uploaded (13, "3e89ee37d1ac145609328babfec95a99")
+1802.817 (0) The time we have been running (1802.7) is approaching the resumption interval (1735) - increasing resumption interval to 1833
+1802.938 (0) S3 chunked upload: 14 % uploaded (14, "3c9012ed2559b31fd084055979078f83")
+1817.177 (0) The time we have been running (1817.1) is approaching the resumption interval (1833) - increasing resumption interval to 1848
+1817.290 (0) S3 chunked upload: 15 % uploaded (15, "22f75f8bccfb4ba717c71f7fa864879c")
+1831.670 (0) The time we have been running (1831.6) is approaching the resumption interval (1848) - increasing resumption interval to 1862
+1831.752 (0) S3 chunked upload: 16 % uploaded (16, "09cb7420c6d58f7d5fe628bda6f0431c")
+1837.335 (0) The time we have been running (1837.2) is approaching the resumption interval (1862) - increasing resumption interval to 1868
+1837.404 (0) S3 chunked upload: 17 % uploaded (17, "d4631064201b14c551163527fdc5e1f2")
+1855.475 (0) The time we have been running (1855.4) is approaching the resumption interval (1868) - increasing resumption interval to 1886
+1855.535 (0) The scheduled resumption is within 45 seconds - will reschedule
+1855.593 (0) Rescheduling resumption 1: moving to 600 seconds from now (1572465379)
+1855.686 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1886 + 45 = 1931
+1855.716 (0) S3 chunked upload: 18 % uploaded (18, "6347f1b32f515a747b03d5dd83ce55f8")
+1867.250 (0) S3 chunked upload: 19 % uploaded (19, "0f04822762bd109244caa93dd1331a04")
+1872.718 (0) S3 chunked upload: 20 % uploaded (20, "0f899e389856d0df3fc6ba02a3b00550")
+1877.951 (0) S3 chunked upload: 21 % uploaded (21, "1a64ce05f19513f77d53bf26b439c4b8")
+1884.904 (0) S3 chunked upload: 22 % uploaded (22, "b734eb9700c4c68ae2a55d442cc8a436")
+1889.944 (0) S3 chunked upload: 23 % uploaded (23, "fcd910d6c2df7780b1340d8248d424ee")
+1894.556 (0) S3 chunked upload: 24 % uploaded (24, "f655da76a1d639dcf7b3049ff17a444e")
+1899.584 (0) S3 chunked upload: 25 % uploaded (25, "57f0dbcef09378a0a9c594993284ecb7")
+1903.962 (0) The time we have been running (1903.9) is approaching the resumption interval (1931) - increasing resumption interval to 1934
+1904.026 (0) S3 chunked upload: 26 % uploaded (26, "316ec8de8d619fafaed8e4ae2049d1b0")
+1908.249 (0) The time we have been running (1908.2) is approaching the resumption interval (1934) - increasing resumption interval to 1939
+1908.314 (0) S3 chunked upload: 27 % uploaded (27, "3adbe642c6cedc4c8cbdb57d05fc4abf")
+1912.520 (0) The time we have been running (1912.4) is approaching the resumption interval (1939) - increasing resumption interval to 1943
+1912.575 (0) S3 chunked upload: 28 % uploaded (28, "7912d73d4925fba80589756fc0236dc6")
+1916.704 (0) The time we have been running (1916.6) is approaching the resumption interval (1943) - increasing resumption interval to 1947
+1916.766 (0) S3 chunked upload: 29 % uploaded (29, "cdbb0f452be14343670e394b8b8658db")
+1920.876 (0) The time we have been running (1920.8) is approaching the resumption interval (1947) - increasing resumption interval to 1951
+1920.940 (0) S3 chunked upload: 30 % uploaded (30, "84b02833dba9c852172aa70c910004a0")
+1925.060 (0) The time we have been running (1925) is approaching the resumption interval (1951) - increasing resumption interval to 1955
+1925.114 (0) S3 chunked upload: 31 % uploaded (31, "2f92bae3b634cc6e7241064952cef725")
+1932.467 (0) The time we have been running (1932.4) is approaching the resumption interval (1955) - increasing resumption interval to 1963
+1932.529 (0) S3 chunked upload: 32 % uploaded (32, "6b2d206ca6ec748f7050d83a9ccd28f9")
+1938.460 (0) The time we have been running (1938.4) is approaching the resumption interval (1963) - increasing resumption interval to 1969
+1938.517 (0) S3 chunked upload: 33 % uploaded (33, "c3721ea1232308bf40db4a65a41dec62")
+1945.949 (0) The time we have been running (1945.9) is approaching the resumption interval (1969) - increasing resumption interval to 1976
+1946.021 (0) S3 chunked upload: 34 % uploaded (34, "9e9cae0d81e1c9a01b4522cd98343b66")
+1953.883 (0) The time we have been running (1953.8) is approaching the resumption interval (1976) - increasing resumption interval to 1984
+1953.942 (0) S3 chunked upload: 35 % uploaded (35, "9df91c3bc885929d82b5fd1193705c0a")
+1964.757 (0) The time we have been running (1964.7) is approaching the resumption interval (1984) - increasing resumption interval to 1995
+1964.822 (0) S3 chunked upload: 36 % uploaded (36, "6ca1323f0a43c4d684c20b5d82ab2085")
+1970.654 (0) The time we have been running (1970.6) is approaching the resumption interval (1995) - increasing resumption interval to 2001
+1970.717 (0) S3 chunked upload: 37 % uploaded (37, "274453c5dd87338bfcf69fe72e0658a6")
+1980.490 (0) The time we have been running (1980.4) is approaching the resumption interval (2001) - increasing resumption interval to 2011
+1980.551 (0) S3 chunked upload: 38 % uploaded (38, "bb2cd154feca78af6af067c9fd42640a")
+1988.844 (0) The time we have been running (1988.8) is approaching the resumption interval (2011) - increasing resumption interval to 2019
+1988.910 (0) S3 chunked upload: 39 % uploaded (39, "5c5a4ea0dd18234429fb4a6a87f155dd")
+1994.311 (0) The time we have been running (1994.2) is approaching the resumption interval (2019) - increasing resumption interval to 2025
+1994.370 (0) S3 chunked upload: 40 % uploaded (40, "fbdde12c5c7263cc2b28551b0fe80db9")
+2001.565 (0) The time we have been running (2001.5) is approaching the resumption interval (2025) - increasing resumption interval to 2032
+2001.621 (0) S3 chunked upload: 41 % uploaded (41, "e574158843965f2fd81d6846afd9b6eb")
+2009.985 (0) The time we have been running (2009.9) is approaching the resumption interval (2032) - increasing resumption interval to 2040
+2010.041 (0) S3 chunked upload: 42 % uploaded (42, "80bc43d22362ab8bfed686d4557daf67")
+2021.806 (0) The time we have been running (2021.7) is approaching the resumption interval (2040) - increasing resumption interval to 2052
+2021.863 (0) S3 chunked upload: 43 % uploaded (43, "8e618f969123f5f1eb1316fba7093613")
+2029.681 (0) The time we have been running (2029.6) is approaching the resumption interval (2052) - increasing resumption interval to 2060
+2029.752 (0) S3 chunked upload: 44 % uploaded (44, "6c733c254805e0cdab1b96361aea8d0d")
+2039.528 (0) The time we have been running (2039.4) is approaching the resumption interval (2060) - increasing resumption interval to 2070
+2039.608 (0) S3 chunked upload: 45 % uploaded (45, "223328fb1c30c7391be5b2c4e3921726")
+2052.233 (0) The time we have been running (2052.1) is approaching the resumption interval (2070) - increasing resumption interval to 2083
+2052.295 (0) S3 chunked upload: 46 % uploaded (46, "3dbe8f75d5c353b3af6e3ba1e47853b5")
+2061.894 (0) The time we have been running (2061.8) is approaching the resumption interval (2083) - increasing resumption interval to 2092
+2061.952 (0) S3 chunked upload: 47 % uploaded (47, "fef6ca64e883b3df0e21c0b54bdf59ff")
+2072.771 (0) The time we have been running (2072.7) is approaching the resumption interval (2092) - increasing resumption interval to 2103
+2072.824 (0) S3 chunked upload: 48 % uploaded (48, "94b17ebba2d6e2400cd910784d05316f")
+2082.036 (0) The time we have been running (2081.9) is approaching the resumption interval (2103) - increasing resumption interval to 2112
+2082.096 (0) S3 chunked upload: 49 % uploaded (49, "2db9699ad1a8d5a65b2a0400656b8f80")
+2092.533 (0) The time we have been running (2092.4) is approaching the resumption interval (2112) - increasing resumption interval to 2123
+2092.592 (0) S3 chunked upload: 50 % uploaded (50, "d36aea9bcb73da3e650b2ff4878b9110")
+2101.781 (0) The time we have been running (2101.7) is approaching the resumption interval (2123) - increasing resumption interval to 2132
+2101.844 (0) S3 chunked upload: 51 % uploaded (51, "b2e57371e04b0498c895972bffb8ae2d")
+2107.172 (0) The time we have been running (2107.1) is approaching the resumption interval (2132) - increasing resumption interval to 2138
+2107.268 (0) S3 chunked upload: 52 % uploaded (52, "b14feb714ab454574bb1b0ab0b68303c")
+2112.732 (0) The time we have been running (2112.6) is approaching the resumption interval (2138) - increasing resumption interval to 2143
+2112.796 (0) S3 chunked upload: 53 % uploaded (53, "80f0c07f44b6f7e30bb9f7e8a1c5c6ea")
+2117.206 (0) The time we have been running (2117.1) is approaching the resumption interval (2143) - increasing resumption interval to 2148
+2117.272 (0) S3 chunked upload: 54 % uploaded (54, "07dc381a8003370f8ceb6ff99662c3c4")
+2121.435 (0) The time we have been running (2121.3) is approaching the resumption interval (2148) - increasing resumption interval to 2152
+2121.499 (0) S3 chunked upload: 55 % uploaded (55, "9e555b65c60f990052023b37eee3bc96")
+2125.581 (0) The time we have been running (2125.5) is approaching the resumption interval (2152) - increasing resumption interval to 2156
+2125.640 (0) S3 chunked upload: 56 % uploaded (56, "46975a24fbc32070b7f2fb4db2019fc8")
+2130.061 (0) The time we have been running (2130) is approaching the resumption interval (2156) - increasing resumption interval to 2160
+2130.133 (0) S3 chunked upload: 57 % uploaded (57, "8222e5c1e67ef3468d98d6f97686812c")
+2134.388 (0) The time we have been running (2134.3) is approaching the resumption interval (2160) - increasing resumption interval to 2165
+2134.451 (0) S3 chunked upload: 58 % uploaded (58, "11433f2b428d1b78afbae14be54d1110")
+2139.581 (0) The time we have been running (2139.5) is approaching the resumption interval (2165) - increasing resumption interval to 2170
+2139.648 (0) S3 chunked upload: 59 % uploaded (59, "68368910aa58cb4573b0aa1686cae5c0")
+2144.419 (0) The time we have been running (2144.3) is approaching the resumption interval (2170) - increasing resumption interval to 2175
+2144.478 (0) S3 chunked upload: 60 % uploaded (60, "1a3c48f8f0d74c175c85d530c393c21a")
+2149.542 (0) The time we have been running (2149.5) is approaching the resumption interval (2175) - increasing resumption interval to 2180
+2149.605 (0) S3 chunked upload: 61 % uploaded (61, "a347b3360a091b69491e2d0a03f4d473")
+2154.203 (0) The time we have been running (2154.1) is approaching the resumption interval (2180) - increasing resumption interval to 2185
+2154.267 (0) S3 chunked upload: 62 % uploaded (62, "a1ea54eaa6f782ac5e5cae6e0fcbbf52")
+2158.505 (0) The time we have been running (2158.4) is approaching the resumption interval (2185) - increasing resumption interval to 2189
+2158.572 (0) S3 chunked upload: 63 % uploaded (63, "d019645c336f83834aff7e9d0347ec47")
+2162.980 (0) The time we have been running (2162.9) is approaching the resumption interval (2189) - increasing resumption interval to 2193
+2163.052 (0) S3 chunked upload: 64 % uploaded (64, "4554e9e3f6f3b2b99a09f19662a89de9")
+2167.292 (0) The time we have been running (2167.2) is approaching the resumption interval (2193) - increasing resumption interval to 2198
+2167.352 (0) S3 chunked upload: 65 % uploaded (65, "85da8fe79c9d801934d84ce287970198")
+2171.616 (0) The time we have been running (2171.5) is approaching the resumption interval (2198) - increasing resumption interval to 2202
+2171.676 (0) S3 chunked upload: 66 % uploaded (66, "4e6ae581db6c6b27e1b3bf98ad21964c")
+2175.860 (0) The time we have been running (2175.8) is approaching the resumption interval (2202) - increasing resumption interval to 2206
+2175.920 (0) S3 chunked upload: 67 % uploaded (67, "e737e72c39da3b975f413f6aa9a2e561")
+2179.995 (0) The time we have been running (2179.9) is approaching the resumption interval (2206) - increasing resumption interval to 2210
+2180.057 (0) S3 chunked upload: 68 % uploaded (68, "31a5db72a6c5f669cff0f60f6f55f7a3")
+2185.032 (0) The time we have been running (2184.9) is approaching the resumption interval (2210) - increasing resumption interval to 2215
+2185.099 (0) S3 chunked upload: 69 % uploaded (69, "8e71af5f5c062bbade120fce9f7a6222")
+2189.502 (0) The time we have been running (2189.4) is approaching the resumption interval (2215) - increasing resumption interval to 2220
+2189.562 (0) S3 chunked upload: 70 % uploaded (70, "c55d0f95c5dd75fd66f0d2b2475470df")
+2193.709 (0) The time we have been running (2193.6) is approaching the resumption interval (2220) - increasing resumption interval to 2224
+2193.784 (0) S3 chunked upload: 71 % uploaded (71, "1bc5fe1c739d25691c35ece492ddf56b")
+2198.608 (0) The time we have been running (2198.5) is approaching the resumption interval (2224) - increasing resumption interval to 2229
+2198.667 (0) S3 chunked upload: 72 % uploaded (72, "a65f051a5ad732b1afca7063748fe0e3")
+2202.971 (0) The time we have been running (2202.9) is approaching the resumption interval (2229) - increasing resumption interval to 2233
+2203.029 (0) S3 chunked upload: 73 % uploaded (73, "c69e8422520f13537cafa44027ebb4a6")
+2207.173 (0) The time we have been running (2207.1) is approaching the resumption interval (2233) - increasing resumption interval to 2238
+2207.235 (0) S3 chunked upload: 74 % uploaded (74, "0c02b5177aea3a836ad26a71f3be6564")
+2212.161 (0) The time we have been running (2212.1) is approaching the resumption interval (2238) - increasing resumption interval to 2243
+2212.218 (0) S3 chunked upload: 75 % uploaded (75, "2416a2ff1c1d44531678de470dbd3f8f")
+2216.437 (0) The time we have been running (2216.3) is approaching the resumption interval (2243) - increasing resumption interval to 2247
+2216.502 (0) S3 chunked upload: 76 % uploaded (76, "2a154aa4cf19bc001bb01f4d4534fb10")
+2220.642 (0) The time we have been running (2220.5) is approaching the resumption interval (2247) - increasing resumption interval to 2251
+2220.711 (0) S3 chunked upload: 77 % uploaded (77, "df9176278c41212d9e3e0a85048b671f")
+2224.854 (0) The time we have been running (2224.8) is approaching the resumption interval (2251) - increasing resumption interval to 2255
+2224.912 (0) S3 chunked upload: 78 % uploaded (78, "484597dfa92b187fca851d5d6ce97d6d")
+2229.231 (0) The time we have been running (2229.1) is approaching the resumption interval (2255) - increasing resumption interval to 2260
+2229.295 (0) S3 chunked upload: 79 % uploaded (79, "a28745c6a33dca5ad4d688893f031b23")
+2233.423 (0) The time we have been running (2233.3) is approaching the resumption interval (2260) - increasing resumption interval to 2264
+2233.487 (0) S3 chunked upload: 80 % uploaded (80, "88410ea2dd486b511d7f7e345d64b9f4")
+2237.602 (0) The time we have been running (2237.5) is approaching the resumption interval (2264) - increasing resumption interval to 2268
+2237.674 (0) S3 chunked upload: 81 % uploaded (81, "2a1373f77d6b357baec56b5e585405a2")
+2241.971 (0) The time we have been running (2241.9) is approaching the resumption interval (2268) - increasing resumption interval to 2272
+2242.035 (0) S3 chunked upload: 82 % uploaded (82, "9196c8dc83acc7cecd72d194b062ac83")
+2246.211 (0) The time we have been running (2246.1) is approaching the resumption interval (2272) - increasing resumption interval to 2277
+2246.299 (0) S3 chunked upload: 83 % uploaded (83, "12d5a424c33a94f9883a989ededbfb79")
+2250.466 (0) The time we have been running (2250.3) is approaching the resumption interval (2277) - increasing resumption interval to 2281
+2250.559 (0) S3 chunked upload: 84 % uploaded (84, "54a30fd62bd5ab543eb7057b18a0782e")
+2254.756 (0) The time we have been running (2254.7) is approaching the resumption interval (2281) - increasing resumption interval to 2285
+2254.822 (0) S3 chunked upload: 85 % uploaded (85, "63cdbabb3660a9da462daba288e251ea")
+2259.642 (0) The time we have been running (2259.5) is approaching the resumption interval (2285) - increasing resumption interval to 2290
+2259.697 (0) S3 chunked upload: 86 % uploaded (86, "1ea04da1732ed6be8b0cf06cec3bff12")
+2264.247 (0) The time we have been running (2264.2) is approaching the resumption interval (2290) - increasing resumption interval to 2295
+2264.317 (0) S3 chunked upload: 87 % uploaded (87, "64434f2bf4cf3f3209a046ce9e570132")
+2268.789 (0) The time we have been running (2268.7) is approaching the resumption interval (2295) - increasing resumption interval to 2299
+2268.858 (0) S3 chunked upload: 88 % uploaded (88, "79ede8fc9bc92704c2d52ff4ac733a8d")
+2273.718 (0) The time we have been running (2273.6) is approaching the resumption interval (2299) - increasing resumption interval to 2304
+2273.775 (0) S3 chunked upload: 89 % uploaded (89, "180660de7fa4401525748316805f8550")
+2278.428 (0) The time we have been running (2278.3) is approaching the resumption interval (2304) - increasing resumption interval to 2309
+2278.517 (0) S3 chunked upload: 90 % uploaded (90, "d1647c135602c1756e87ddd741e96511")
+2282.952 (0) The time we have been running (2282.9) is approaching the resumption interval (2309) - increasing resumption interval to 2313
+2283.057 (0) S3 chunked upload: 91 % uploaded (91, "4a2a71692ce2b97250ddfa25d3d03e8e")
+2287.461 (0) The time we have been running (2287.3) is approaching the resumption interval (2313) - increasing resumption interval to 2318
+2287.576 (0) S3 chunked upload: 92 % uploaded (92, "62731e73fd8a57b429583b9b3ab60088")
+2291.896 (0) The time we have been running (2291.8) is approaching the resumption interval (2318) - increasing resumption interval to 2322
+2291.964 (0) S3 chunked upload: 93 % uploaded (93, "f295ddc2988f85a5def1d51e7adb9d23")
+2296.625 (0) The time we have been running (2296.5) is approaching the resumption interval (2322) - increasing resumption interval to 2327
+2296.711 (0) S3 chunked upload: 94 % uploaded (94, "76ef702d3602953f9b2a2ccf4a0696b7")
+2301.593 (0) The time we have been running (2301.5) is approaching the resumption interval (2327) - increasing resumption interval to 2332
+2301.654 (0) S3 chunked upload: 95 % uploaded (95, "16c05d2308863963f8df3401b9ffa1c2")
+2306.131 (0) The time we have been running (2306) is approaching the resumption interval (2332) - increasing resumption interval to 2337
+2306.191 (0) S3 chunked upload: 96 % uploaded (96, "bfab0c38f5ab7af41480a0d76f836672")
+2310.647 (0) The time we have been running (2310.5) is approaching the resumption interval (2337) - increasing resumption interval to 2341
+2310.711 (0) S3 chunked upload: 97 % uploaded (97, "f9a3ed08185348ed7ed3421b8b74b799")
+2315.571 (0) The time we have been running (2315.4) is approaching the resumption interval (2341) - increasing resumption interval to 2346
+2315.728 (0) S3 chunked upload: 98 % uploaded (98, "da2345683c88f03ba66aff26c667cdf7")
+2320.697 (0) The time we have been running (2320.6) is approaching the resumption interval (2346) - increasing resumption interval to 2351
+2320.755 (0) S3 chunked upload: 99 % uploaded (99, "6a12f0c3aa527ca4cc00cbf48881e77d")
+2323.948 (0) The time we have been running (2323.8) is approaching the resumption interval (2351) - increasing resumption interval to 2354
+2324.031 (0) S3 chunked upload: 100 % uploaded (100, "56cffb71359ee1888cb1cb208afe82d7")
+2324.124 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+2324.982 (0) Amazon S3: upload (uploads0): re-assembly succeeded
+2325.029 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip
+2325.130 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads.zip: OK
+2325.155 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip (chunks: 104) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip
+2325.287 (0) Amazon S3: chunked upload: got multipart ID: 7yD7x9GB4dwJBqgRwA.m4ykk81mSQSrXrbCCB.yXpctfaQjWUVN9gHJZvKY.L6W8MvP4LoEsFAYSfIKG5kN4.0j1T9pHg7ZjVsHWdAW.z.hSuOQ0qeaPS2Ad_3mboST1
+2336.181 (0) The time we have been running (2336.1) is approaching the resumption interval (2354) - increasing resumption interval to 2367
+2336.264 (0) S3 chunked upload: 1 % uploaded (1, "983d84325628f53adef7ae3409d8f716")
+2340.961 (0) The time we have been running (2340.9) is approaching the resumption interval (2367) - increasing resumption interval to 2371
+2341.018 (0) S3 chunked upload: 1.9 % uploaded (2, "7e51f495bd09fa21ee75e10dbe84c4d5")
+2345.926 (0) The time we have been running (2345.8) is approaching the resumption interval (2371) - increasing resumption interval to 2376
+2345.978 (0) S3 chunked upload: 2.9 % uploaded (3, "b293e404f9fb110c79d143db80be7295")
+2351.344 (0) The time we have been running (2351.3) is approaching the resumption interval (2376) - increasing resumption interval to 2382
+2351.410 (0) S3 chunked upload: 3.8 % uploaded (4, "19a1d72a3ac7c16deddb6edff70afca7")
+2356.204 (0) The time we have been running (2356.1) is approaching the resumption interval (2382) - increasing resumption interval to 2387
+2356.284 (0) S3 chunked upload: 4.8 % uploaded (5, "c8c8fcad3eed641e1b2a900123e682b3")
+2361.466 (0) The time we have been running (2361.4) is approaching the resumption interval (2387) - increasing resumption interval to 2392
+2361.534 (0) S3 chunked upload: 5.8 % uploaded (6, "35397b06f37ca5aac3319e937718375a")
+2366.208 (0) The time we have been running (2366.1) is approaching the resumption interval (2392) - increasing resumption interval to 2397
+2366.272 (0) S3 chunked upload: 6.7 % uploaded (7, "944d192e8c079e6105e3b9d59547c814")
+2370.471 (0) The time we have been running (2370.4) is approaching the resumption interval (2397) - increasing resumption interval to 2401
+2370.574 (0) S3 chunked upload: 7.7 % uploaded (8, "77201a7e26e1035f89ee178f92f96400")
+2374.896 (0) The time we have been running (2374.8) is approaching the resumption interval (2401) - increasing resumption interval to 2405
+2375.013 (0) S3 chunked upload: 8.7 % uploaded (9, "967852b3e1f9bc6cc5ffd2b7a2621efc")
+2381.158 (0) The time we have been running (2381.1) is approaching the resumption interval (2405) - increasing resumption interval to 2412
+2381.222 (0) S3 chunked upload: 9.6 % uploaded (10, "b941ec3404c1f20b5013120b1b12545e")
+2391.480 (0) The time we have been running (2391.4) is approaching the resumption interval (2412) - increasing resumption interval to 2422
+2391.575 (0) S3 chunked upload: 10.6 % uploaded (11, "014f089f71c79ab1999b41b3eb83daa2")
+2396.743 (0) The time we have been running (2396.6) is approaching the resumption interval (2422) - increasing resumption interval to 2427
+2396.849 (0) S3 chunked upload: 11.5 % uploaded (12, "c1b3a25c5bfcc688a00217f64da5fc87")
+2401.450 (0) The time we have been running (2401.3) is approaching the resumption interval (2427) - increasing resumption interval to 2432
+2401.516 (0) S3 chunked upload: 12.5 % uploaded (13, "8869f764438412063ca587c8bf294bae")
+2407.625 (0) The time we have been running (2407.5) is approaching the resumption interval (2432) - increasing resumption interval to 2438
+2407.686 (0) S3 chunked upload: 13.5 % uploaded (14, "1673999c7416a39f7d53ab6c0f9f1615")
+2413.000 (0) The time we have been running (2412.9) is approaching the resumption interval (2438) - increasing resumption interval to 2443
+2413.085 (0) The scheduled resumption is within 45 seconds - will reschedule
+2413.145 (0) Rescheduling resumption 1: moving to 600 seconds from now (1572465936)
+2413.248 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 2443 + 45 = 2488
+2413.274 (0) S3 chunked upload: 14.4 % uploaded (15, "39240138c22c5492fea07cee94d8e047")
+2417.591 (0) S3 chunked upload: 15.4 % uploaded (16, "78139f0302e339282a7b0fa49ef75943")
+2421.718 (0) S3 chunked upload: 16.3 % uploaded (17, "22082dcdc9a6fd162fdda8927ae0a8f5")
+2425.842 (0) S3 chunked upload: 17.3 % uploaded (18, "d2d55db6f279f5f3f0af4f2ddf59d86d")
+2430.220 (0) S3 chunked upload: 18.3 % uploaded (19, "2a9c94eb2e76ca8dd55d0b71f08d150b")
+2435.011 (0) S3 chunked upload: 19.2 % uploaded (20, "c15659376626a56c22817da6aa2d95d7")
+2440.991 (0) S3 chunked upload: 20.2 % uploaded (21, "ce8e83eb7a5e1ea733c05c8fed3c6227")
+2445.799 (0) S3 chunked upload: 21.2 % uploaded (22, "f049fbb3526410b46b3a7842e87f29d5")
+2450.945 (0) S3 chunked upload: 22.1 % uploaded (23, "4ec99fe97df9b548fc104c93b49cfffc")
+2456.884 (0) S3 chunked upload: 23.1 % uploaded (24, "a0334c9518fd7e23b379370e68b80b48")
+2461.676 (0) The time we have been running (2461.5) is approaching the resumption interval (2488) - increasing resumption interval to 2492
+2461.770 (0) S3 chunked upload: 24 % uploaded (25, "acc33c8873c025e3c7b6cec88fbaf574")
+2467.026 (0) The time we have been running (2466.9) is approaching the resumption interval (2492) - increasing resumption interval to 2497
+2467.110 (0) S3 chunked upload: 25 % uploaded (26, "45b6349c7b43140a43ed09083a3dbce1")
+2471.568 (0) The time we have been running (2471.5) is approaching the resumption interval (2497) - increasing resumption interval to 2502
+2471.672 (0) S3 chunked upload: 26 % uploaded (27, "fcfac6c8d9d547c7dc15109b6b76d815")
+2476.068 (0) The time we have been running (2476) is approaching the resumption interval (2502) - increasing resumption interval to 2506
+2476.135 (0) S3 chunked upload: 26.9 % uploaded (28, "6fa2412647011d032fc69bae3ef2f051")
+2480.428 (0) The time we have been running (2480.3) is approaching the resumption interval (2506) - increasing resumption interval to 2511
+2480.519 (0) S3 chunked upload: 27.9 % uploaded (29, "67fc180bd89f03ee99d6c1b4a8d584d5")
+2484.759 (0) The time we have been running (2484.6) is approaching the resumption interval (2511) - increasing resumption interval to 2515
+2484.882 (0) S3 chunked upload: 28.8 % uploaded (30, "7a180c5609c019c8e705fc328611ebf0")
+2489.180 (0) The time we have been running (2489) is approaching the resumption interval (2515) - increasing resumption interval to 2520
+2489.300 (0) S3 chunked upload: 29.8 % uploaded (31, "df013b5eae5b1871ebe5060eba5bff85")
+2494.050 (0) The time we have been running (2494) is approaching the resumption interval (2520) - increasing resumption interval to 2524
+2494.118 (0) S3 chunked upload: 30.8 % uploaded (32, "67b23616daf7785da96b68b6645767cd")
+2498.572 (0) The time we have been running (2498.5) is approaching the resumption interval (2524) - increasing resumption interval to 2529
+2498.678 (0) S3 chunked upload: 31.7 % uploaded (33, "84763460921beeb02a7f471d8c0dcbb1")
+2502.943 (0) The time we have been running (2502.9) is approaching the resumption interval (2529) - increasing resumption interval to 2533
+2503.017 (0) S3 chunked upload: 32.7 % uploaded (34, "d4b87717e8dbe129681f0b5b8e04b0dc")
+2507.631 (0) The time we have been running (2507.5) is approaching the resumption interval (2533) - increasing resumption interval to 2538
+2507.767 (0) S3 chunked upload: 33.7 % uploaded (35, "9e32f83183bff748e273f300032d147f")
+2512.327 (0) The time we have been running (2512.2) is approaching the resumption interval (2538) - increasing resumption interval to 2543
+2512.463 (0) S3 chunked upload: 34.6 % uploaded (36, "72afc3881544fcf22bc5a8ef921ab071")
+2517.404 (0) The time we have been running (2517.3) is approaching the resumption interval (2543) - increasing resumption interval to 2548
+2517.502 (0) S3 chunked upload: 35.6 % uploaded (37, "45aa7410df2e668521d0a818a08ab808")
+2522.096 (0) The time we have been running (2522) is approaching the resumption interval (2548) - increasing resumption interval to 2552
+2522.236 (0) S3 chunked upload: 36.5 % uploaded (38, "30dd34edf4a40b4600a8629e7a17fd9f")
+2526.821 (0) The time we have been running (2526.7) is approaching the resumption interval (2552) - increasing resumption interval to 2557
+2526.944 (0) S3 chunked upload: 37.5 % uploaded (39, "52318c3481b5c6bfd9887e51f0e18e54")
+2531.797 (0) The time we have been running (2531.7) is approaching the resumption interval (2557) - increasing resumption interval to 2562
+2531.897 (0) S3 chunked upload: 38.5 % uploaded (40, "0ede4a6b2d982e90b3413cf14a13904d")
+2536.416 (0) The time we have been running (2536.3) is approaching the resumption interval (2562) - increasing resumption interval to 2567
+2536.518 (0) S3 chunked upload: 39.4 % uploaded (41, "250c4260015305d72153f256a2b93ff9")
+2540.750 (0) The time we have been running (2540.6) is approaching the resumption interval (2567) - increasing resumption interval to 2571
+2540.846 (0) S3 chunked upload: 40.4 % uploaded (42, "f3bc17094470e2f4fb46ddbe5d89c6b4")
+2545.158 (0) The time we have been running (2545) is approaching the resumption interval (2571) - increasing resumption interval to 2576
+2545.261 (0) S3 chunked upload: 41.3 % uploaded (43, "eb552717f1540c8e22b65052dbdd623e")
+2549.484 (0) The time we have been running (2549.4) is approaching the resumption interval (2576) - increasing resumption interval to 2580
+2549.581 (0) S3 chunked upload: 42.3 % uploaded (44, "d5e24f54950d4400b7fa5f4360473a27")
+2553.908 (0) The time we have been running (2553.8) is approaching the resumption interval (2580) - increasing resumption interval to 2584
+2554.029 (0) S3 chunked upload: 43.3 % uploaded (45, "86ddd39e8997cad0b3a77b805d152dcb")
+2558.954 (0) The time we have been running (2558.8) is approaching the resumption interval (2584) - increasing resumption interval to 2589
+2559.053 (0) S3 chunked upload: 44.2 % uploaded (46, "63780a707fbc33981d85bd54c3de744b")
+2569.391 (0) The time we have been running (2569.3) is approaching the resumption interval (2589) - increasing resumption interval to 2600
+2569.498 (0) S3 chunked upload: 45.2 % uploaded (47, "8100298292e386e470e4ed4e628a2728")
+2574.208 (0) The time we have been running (2574.1) is approaching the resumption interval (2600) - increasing resumption interval to 2605
+2574.267 (0) S3 chunked upload: 46.2 % uploaded (48, "d380314f9d2241708b7f6542c2505509")
+2578.487 (0) The time we have been running (2578.4) is approaching the resumption interval (2605) - increasing resumption interval to 2609
+2578.595 (0) S3 chunked upload: 47.1 % uploaded (49, "b1829fcf4dde2e1db2ad075f924e5167")
+2582.798 (0) The time we have been running (2582.7) is approaching the resumption interval (2609) - increasing resumption interval to 2613
+2582.860 (0) S3 chunked upload: 48.1 % uploaded (50, "c0acfed1b086569dbfe465b5ceb52703")
+2590.596 (0) The time we have been running (2590.4) is approaching the resumption interval (2613) - increasing resumption interval to 2621
+2590.665 (0) S3 chunked upload: 49 % uploaded (51, "c55b5804be651a7fd554709fc6cfc8a7")
+2597.961 (0) The time we have been running (2597.9) is approaching the resumption interval (2621) - increasing resumption interval to 2628
+2598.072 (0) S3 chunked upload: 50 % uploaded (52, "b1677b422a89de74be6155bf3770f7c0")
+2604.135 (0) The time we have been running (2604) is approaching the resumption interval (2628) - increasing resumption interval to 2635
+2604.274 (0) S3 chunked upload: 51 % uploaded (53, "869b4944fcc85fc153f73e7474517330")
+2610.746 (0) The time we have been running (2610.6) is approaching the resumption interval (2635) - increasing resumption interval to 2641
+2610.821 (0) S3 chunked upload: 51.9 % uploaded (54, "b79f26f2490982ce4c9e3ef221015188")
+2623.165 (0) The time we have been running (2623.1) is approaching the resumption interval (2641) - increasing resumption interval to 2654
+2623.288 (0) S3 chunked upload: 52.9 % uploaded (55, "e1054a1fcca32730554a388358c09242")
+2628.880 (0) The time we have been running (2628.8) is approaching the resumption interval (2654) - increasing resumption interval to 2659
+2628.943 (0) S3 chunked upload: 53.8 % uploaded (56, "290780e0490adc16f60555d55672b692")
+2636.830 (0) The time we have been running (2636.7) is approaching the resumption interval (2659) - increasing resumption interval to 2667
+2636.934 (0) S3 chunked upload: 54.8 % uploaded (57, "787f1e64681e5bcee240a7e07c855fb0")
+2649.395 (0) The time we have been running (2649.3) is approaching the resumption interval (2667) - increasing resumption interval to 2680
+2649.508 (0) S3 chunked upload: 55.8 % uploaded (58, "e5281ef28aa1b2f0c1fa59d8bbeb8c06")
+2657.374 (0) The time we have been running (2657.3) is approaching the resumption interval (2680) - increasing resumption interval to 2688
+2657.435 (0) S3 chunked upload: 56.7 % uploaded (59, "35b5e7d66a2de568c587f947df149ef7")
+2666.463 (0) The time we have been running (2666.4) is approaching the resumption interval (2688) - increasing resumption interval to 2697
+2666.533 (0) S3 chunked upload: 57.7 % uploaded (60, "79d3458e268d1b2820d293529d2c6b41")
+2674.415 (0) The time we have been running (2674.3) is approaching the resumption interval (2697) - increasing resumption interval to 2705
+2674.519 (0) S3 chunked upload: 58.7 % uploaded (61, "e8eb8f0e8ca34a760dd45251e8770e59")
+2731.247 (0) The time we have been running (2731.2) is approaching the resumption interval (2705) - increasing resumption interval to 2762
+2731.307 (0) S3 chunked upload: 59.6 % uploaded (62, "82bba7972c26f5e47213a7061e94edcd")
+2746.179 (0) The time we have been running (2746.1) is approaching the resumption interval (2762) - increasing resumption interval to 2777
+2746.239 (0) S3 chunked upload: 60.6 % uploaded (63, "7ca98c064deafd7b27abac6b0705a18d")
+2751.293 (0) The time we have been running (2751.2) is approaching the resumption interval (2777) - increasing resumption interval to 2782
+2751.364 (0) S3 chunked upload: 61.5 % uploaded (64, "97965c5c5348fb128e9cc517e745cfcf")
+2756.658 (0) The time we have been running (2756.6) is approaching the resumption interval (2782) - increasing resumption interval to 2787
+2756.726 (0) S3 chunked upload: 62.5 % uploaded (65, "bb8192134fc33905861a728bde2b73d6")
+2761.099 (0) The time we have been running (2761) is approaching the resumption interval (2787) - increasing resumption interval to 2791
+2761.179 (0) S3 chunked upload: 63.5 % uploaded (66, "483fabbaa28746ca96e6073c428a13a5")
+2765.684 (0) The time we have been running (2765.5) is approaching the resumption interval (2791) - increasing resumption interval to 2796
+2765.751 (0) S3 chunked upload: 64.4 % uploaded (67, "0c5a2a1f41deeb0f9ce29072e47c7fb1")
+2770.601 (0) The time we have been running (2770.5) is approaching the resumption interval (2796) - increasing resumption interval to 2801
+2770.712 (0) S3 chunked upload: 65.4 % uploaded (68, "03346560b8a54043f6b3bd3275a0069f")
+2775.607 (0) The time we have been running (2775.5) is approaching the resumption interval (2801) - increasing resumption interval to 2806
+2775.780 (0) S3 chunked upload: 66.3 % uploaded (69, "4df21584bf62d437dcca75bb4dc178f5")
+2780.359 (0) The time we have been running (2780.2) is approaching the resumption interval (2806) - increasing resumption interval to 2811
+2780.431 (0) S3 chunked upload: 67.3 % uploaded (70, "ddb08e985b32acf27c12f2a87f51e3b9")
+2784.960 (0) The time we have been running (2784.7) is approaching the resumption interval (2811) - increasing resumption interval to 2815
+2785.077 (0) S3 chunked upload: 68.3 % uploaded (71, "9a2cd68e5464d68c6e6a6923e6cca06b")
+2789.403 (0) The time we have been running (2789.3) is approaching the resumption interval (2815) - increasing resumption interval to 2820
+2789.510 (0) S3 chunked upload: 69.2 % uploaded (72, "b50308ea335d337f5a8ea28373b5fd5b")
+2793.977 (0) The time we have been running (2793.7) is approaching the resumption interval (2820) - increasing resumption interval to 2824
+2794.114 (0) S3 chunked upload: 70.2 % uploaded (73, "8fdbeec390de26850b29757268a24b8f")
+2798.762 (0) The time we have been running (2798.6) is approaching the resumption interval (2824) - increasing resumption interval to 2829
+2798.879 (0) S3 chunked upload: 71.2 % uploaded (74, "2a7601c5fca36a5d147d0221b49d5105")
+2803.227 (0) The time we have been running (2803.1) is approaching the resumption interval (2829) - increasing resumption interval to 2834
+2803.326 (0) S3 chunked upload: 72.1 % uploaded (75, "42f510cebdd8fb800e10c3628d17de5e")
+2807.769 (0) The time we have been running (2807.6) is approaching the resumption interval (2834) - increasing resumption interval to 2838
+2807.877 (0) S3 chunked upload: 73.1 % uploaded (76, "2b10116e9133d7f86e7bbca9b18eded8")
+2812.404 (0) The time we have been running (2812.3) is approaching the resumption interval (2838) - increasing resumption interval to 2843
+2812.522 (0) S3 chunked upload: 74 % uploaded (77, "94033d6c6bcf8943c59f57bda2f25ed6")
+2817.794 (0) The time we have been running (2817.7) is approaching the resumption interval (2843) - increasing resumption interval to 2848
+2817.893 (0) S3 chunked upload: 75 % uploaded (78, "eb7818ff293c3e609b6730dddb777a20")
+2822.382 (0) The time we have been running (2822.3) is approaching the resumption interval (2848) - increasing resumption interval to 2853
+2822.483 (0) S3 chunked upload: 76 % uploaded (79, "b0db09f9cbe193d163638f1fa5e6f622")
+2827.382 (0) The time we have been running (2827.2) is approaching the resumption interval (2853) - increasing resumption interval to 2858
+2827.515 (0) S3 chunked upload: 76.9 % uploaded (80, "f1b4b19165e178fb7640f9bd1b3ca540")
+2832.140 (0) The time we have been running (2832) is approaching the resumption interval (2858) - increasing resumption interval to 2863
+2832.213 (0) S3 chunked upload: 77.9 % uploaded (81, "1cb4f212cb2d4b6ef9767e895ddd4f74")
+2836.665 (0) The time we have been running (2836.4) is approaching the resumption interval (2863) - increasing resumption interval to 2867
+2836.774 (0) S3 chunked upload: 78.8 % uploaded (82, "155f8f4eb6143a64f97e49956d58d1d5")
+2841.959 (0) The time we have been running (2841.8) is approaching the resumption interval (2867) - increasing resumption interval to 2872
+2842.083 (0) S3 chunked upload: 79.8 % uploaded (83, "cefcae3717570544ab1cee2950909a76")
+2848.952 (0) The time we have been running (2848.9) is approaching the resumption interval (2872) - increasing resumption interval to 2879
+2849.025 (0) S3 chunked upload: 80.8 % uploaded (84, "5c6b29a43b6c38fc297d3da314a87126")
+2854.076 (0) The time we have been running (2853.8) is approaching the resumption interval (2879) - increasing resumption interval to 2884
+2854.180 (0) S3 chunked upload: 81.7 % uploaded (85, "1ddabc9f87f58648bd0d6d4fbfbbd878")
+2863.351 (0) The time we have been running (2863.2) is approaching the resumption interval (2884) - increasing resumption interval to 2894
+2863.466 (0) S3 chunked upload: 82.7 % uploaded (86, "4b43ca5c79630ed506dec04c0a618177")
+2890.816 (0) The time we have been running (2889.5) is approaching the resumption interval (2894) - increasing resumption interval to 2920
+2892.025 (0) S3 chunked upload: 83.7 % uploaded (87, "d3b6f0c743566176f4be1c2cfdd76567")
+2969.310 (0) The time we have been running (2967.8) is approaching the resumption interval (2920) - increasing resumption interval to 2998
+2970.253 (0) The scheduled resumption is within 45 seconds - will reschedule
+2971.267 (0) Rescheduling resumption 1: moving to 600 seconds from now (1572466495)
+2972.235 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 2998 + 45 = 3043
+2972.284 (0) S3 chunked upload: 84.6 % uploaded (88, "490c3a6eb51e98e0a5580be6ded7b66a")
+3083.143 (0) The time we have been running (3082.8) is approaching the resumption interval (3043) - increasing resumption interval to 3113
+3083.384 (0) S3 chunked upload: 85.6 % uploaded (89, "c9fb2626489212a8f75dd93df806a20d")
+3095.115 (0) The time we have been running (3094.9) is approaching the resumption interval (3113) - increasing resumption interval to 3125
+3095.213 (0) S3 chunked upload: 86.5 % uploaded (90, "70a0ae82c439216808a553e4f87321e0")
+3170.513 (0) The time we have been running (3170.3) is approaching the resumption interval (3125) - increasing resumption interval to 3201
+3170.635 (0) S3 chunked upload: 87.5 % uploaded (91, "d98833dd225692116a0d8f3d992667b0")
+3195.404 (0) The time we have been running (3195.3) is approaching the resumption interval (3201) - increasing resumption interval to 3226
+3195.536 (0) S3 chunked upload: 88.5 % uploaded (92, "3ebd32fd2f34154c47992d714d3fc212")
+3242.624 (0) The time we have been running (3241.9) is approaching the resumption interval (3226) - increasing resumption interval to 3272
+3243.065 (0) S3 chunked upload: 89.4 % uploaded (93, "555aa4ca9f536affb5b379913b22c823")
+3300.959 (0) The time we have been running (3300.7) is approaching the resumption interval (3272) - increasing resumption interval to 3331
+3301.107 (0) S3 chunked upload: 90.4 % uploaded (94, "f7811b54369b1809c1ec19f2895137d5")
+3378.286 (0) The time we have been running (3377.7) is approaching the resumption interval (3331) - increasing resumption interval to 3408
+3378.715 (0) S3 chunked upload: 91.3 % uploaded (95, "15306aa179cdc84c6e01b45c68fa626d")
+3448.935 (0) The time we have been running (3448.8) is approaching the resumption interval (3408) - increasing resumption interval to 3479
+3449.071 (0) S3 chunked upload: 92.3 % uploaded (96, "f30be6e79898628cf004b9d08c99a80f")
+3481.127 (0) The time we have been running (3481) is approaching the resumption interval (3479) - increasing resumption interval to 3512
+3481.239 (0) S3 chunked upload: 93.3 % uploaded (97, "5919f5f99b030257a2b1c2749562de14")
+3504.779 (0) The time we have been running (3504.6) is approaching the resumption interval (3512) - increasing resumption interval to 3535
+3504.865 (0) S3 chunked upload: 94.2 % uploaded (98, "92e763683f8e51bc2bbd6dd14ba8cb3e")
+3518.828 (0) The time we have been running (3518.7) is approaching the resumption interval (3535) - increasing resumption interval to 3549
+3518.938 (0) S3 chunked upload: 95.2 % uploaded (99, "0f666a3f59521556a6b9d361dbd67a6e")
+3534.913 (0) The time we have been running (3534.8) is approaching the resumption interval (3549) - increasing resumption interval to 3565
+3535.069 (0) The scheduled resumption is within 45 seconds - will reschedule
+3535.150 (0) Rescheduling resumption 1: moving to 600 seconds from now (1572467058)
+3535.287 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 3565 + 45 = 3610
+3535.333 (0) S3 chunked upload: 96.2 % uploaded (100, "d0be5ba0f2b39189e764b58035c6c7b5")
+3548.154 (0) S3 chunked upload: 97.1 % uploaded (101, "7081aa708e4f00b498a1af776b5f1330")
+3560.979 (0) S3 chunked upload: 98.1 % uploaded (102, "51974f803595d1887ada3c90b7b4faad")
+3570.540 (0) S3 chunked upload: 99 % uploaded (103, "60219884d4bca456213b1e9ac22d1871")
+3577.331 (0) S3 chunked upload: 100 % uploaded (104, "0906fa33f777dde75e007e839d39b81a")
+3577.542 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+3577.955 (0) Amazon S3: upload (uploads1): re-assembly succeeded
+3578.031 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip
+3578.206 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads2.zip: OK
+3578.257 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip (chunks: 99) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip
+3578.400 (0) Amazon S3: chunked upload: got multipart ID: Kqkz_2posViiNRXfPoGi5uOwdPBhVUR71duW8M46h.kjIQToSL4iilfwT_nHjSJQJKR3cykOFy0tPxIfBmRdK0xAXB3GkP6YEKYp6N8dfFre8JxHt6jyIg8kSs_.5k5Q
+3623.450 (0) The time we have been running (3623.3) is approaching the resumption interval (3610) - increasing resumption interval to 3654
+3623.587 (0) S3 chunked upload: 1 % uploaded (1, "713c02a955432a7f1bd86d0f4a752b4a")
+3638.765 (0) The time we have been running (3638.6) is approaching the resumption interval (3654) - increasing resumption interval to 3669
+3638.884 (0) S3 chunked upload: 2 % uploaded (2, "426f8c619991ca15270b21040a03d178")
+3679.989 (0) The time we have been running (3679.9) is approaching the resumption interval (3669) - increasing resumption interval to 3710
+3680.098 (0) S3 chunked upload: 3 % uploaded (3, "26c41a8984f45e4f4c7b4abb69f5a95b")
+3692.099 (0) The time we have been running (3692) is approaching the resumption interval (3710) - increasing resumption interval to 3722
+3692.239 (0) S3 chunked upload: 4 % uploaded (4, "2a363201bb6aafa139bc166bf7891d23")
+3700.598 (0) The time we have been running (3700.5) is approaching the resumption interval (3722) - increasing resumption interval to 3731
+3700.731 (0) S3 chunked upload: 5.1 % uploaded (5, "e15ebd33d2026c5ace2520f9662bedeb")
+3709.054 (0) The time we have been running (3708.9) is approaching the resumption interval (3731) - increasing resumption interval to 3739
+3709.161 (0) S3 chunked upload: 6.1 % uploaded (6, "342944bb923355debc87a48188d5493f")
+3715.237 (0) The time we have been running (3715.1) is approaching the resumption interval (3739) - increasing resumption interval to 3746
+3715.315 (0) S3 chunked upload: 7.1 % uploaded (7, "cb912466569588d9eee239971541c7e3")
+3723.577 (0) The time we have been running (3723.4) is approaching the resumption interval (3746) - increasing resumption interval to 3754
+3723.699 (0) S3 chunked upload: 8.1 % uploaded (8, "343e631619def97063c04f727095bc51")
+3731.775 (0) The time we have been running (3731.7) is approaching the resumption interval (3754) - increasing resumption interval to 3762
+3731.900 (0) S3 chunked upload: 9.1 % uploaded (9, "710494c887646205a59ca58a3c3c3557")
+3740.670 (0) The time we have been running (3740.6) is approaching the resumption interval (3762) - increasing resumption interval to 3771
+3740.740 (0) S3 chunked upload: 10.1 % uploaded (10, "6faa2738762465c8ea1cf0a31d32c122")
+3755.226 (0) The time we have been running (3755.1) is approaching the resumption interval (3771) - increasing resumption interval to 3786
+3755.379 (0) S3 chunked upload: 11.1 % uploaded (11, "737fd594047650d1acc4b69237709c21")
+3764.455 (0) The time we have been running (3764.3) is approaching the resumption interval (3786) - increasing resumption interval to 3795
+3764.601 (0) S3 chunked upload: 12.1 % uploaded (12, "4fad50a9563ea2156081512c61e2b261")
+3773.174 (0) The time we have been running (3773) is approaching the resumption interval (3795) - increasing resumption interval to 3804
+3773.247 (0) S3 chunked upload: 13.1 % uploaded (13, "b09d6c9cdc91e41f7197e2c5dc7a8899")
+3783.349 (0) The time we have been running (3783) is approaching the resumption interval (3804) - increasing resumption interval to 3814
+3783.540 (0) S3 chunked upload: 14.1 % uploaded (14, "ff0909d4d72747200d1210313e30e672")
+3795.382 (0) The time we have been running (3795.2) is approaching the resumption interval (3814) - increasing resumption interval to 3826
+3795.474 (0) S3 chunked upload: 15.2 % uploaded (15, "d79f06a6d8e5d4823496a3d0cfb0883b")
+3806.006 (0) The time we have been running (3805.9) is approaching the resumption interval (3826) - increasing resumption interval to 3836
+3806.141 (0) S3 chunked upload: 16.2 % uploaded (16, "ded6608406975feca1adc1182d932902")
+3812.497 (0) The time we have been running (3812.4) is approaching the resumption interval (3836) - increasing resumption interval to 3843
+3812.634 (0) S3 chunked upload: 17.2 % uploaded (17, "ece0593f517a7da5be8322e5e4fc069d")
+3818.077 (0) The time we have been running (3817.9) is approaching the resumption interval (3843) - increasing resumption interval to 3848
+3818.170 (0) S3 chunked upload: 18.2 % uploaded (18, "33d2dc25c7acacee863d565658493409")
+3828.321 (0) The time we have been running (3828.2) is approaching the resumption interval (3848) - increasing resumption interval to 3859
+3828.424 (0) S3 chunked upload: 19.2 % uploaded (19, "ada7a979eb58188e93d7165bff06ed7f")
+3835.397 (0) The time we have been running (3835.2) is approaching the resumption interval (3859) - increasing resumption interval to 3866
+3835.515 (0) S3 chunked upload: 20.2 % uploaded (20, "c6f3a08163fd2bc1e39bf09a5364378e")
+3842.757 (0) The time we have been running (3842.6) is approaching the resumption interval (3866) - increasing resumption interval to 3873
+3842.824 (0) S3 chunked upload: 21.2 % uploaded (21, "6b3aa3847432ce13c2959e50dd634f15")
+3851.028 (0) The time we have been running (3850.9) is approaching the resumption interval (3873) - increasing resumption interval to 3881
+3851.085 (0) S3 chunked upload: 22.2 % uploaded (22, "0f2619b45336f5ddfe2ccf06dfb72737")
+3859.292 (0) The time we have been running (3858.9) is approaching the resumption interval (3881) - increasing resumption interval to 3889
+3859.359 (0) S3 chunked upload: 23.2 % uploaded (23, "06c7df9efe1d1bb951f653e81feef12a")
+3865.004 (0) The time we have been running (3864.7) is approaching the resumption interval (3889) - increasing resumption interval to 3895
+3865.107 (0) S3 chunked upload: 24.2 % uploaded (24, "e7a2bb8e2527563413ce91352e93219b")
+3879.978 (0) The time we have been running (3879.9) is approaching the resumption interval (3895) - increasing resumption interval to 3910
+3880.042 (0) S3 chunked upload: 25.3 % uploaded (25, "c848652133b88c9d2a4e1655ede710c7")
+3891.589 (0) The time we have been running (3891.4) is approaching the resumption interval (3910) - increasing resumption interval to 3922
+3891.694 (0) S3 chunked upload: 26.3 % uploaded (26, "762a3905bf7dd62683d11a437f32f361")
+3903.063 (0) The time we have been running (3903) is approaching the resumption interval (3922) - increasing resumption interval to 3933
+3903.138 (0) S3 chunked upload: 27.3 % uploaded (27, "f2a192acf6631a76234e47d2a5ddac46")
+3923.638 (0) The time we have been running (3923.6) is approaching the resumption interval (3933) - increasing resumption interval to 3954
+3923.708 (0) S3 chunked upload: 28.3 % uploaded (28, "1aa82b0a4a998847edc3d899ac5de1bc")
+3952.859 (0) The time we have been running (3952.7) is approaching the resumption interval (3954) - increasing resumption interval to 3983
+3953.056 (0) S3 chunked upload: 29.3 % uploaded (29, "09afce085f89d135b045cf2d8216c748")
+3968.145 (0) The time we have been running (3968) is approaching the resumption interval (3983) - increasing resumption interval to 3998
+3968.218 (0) S3 chunked upload: 30.3 % uploaded (30, "f614fe8c389b1114f504209abf529bff")
+3976.003 (0) The time we have been running (3975.8) is approaching the resumption interval (3998) - increasing resumption interval to 4006
+3976.110 (0) S3 chunked upload: 31.3 % uploaded (31, "d95191105b19deb8fa4bc07761869742")
+3988.830 (0) The time we have been running (3988.7) is approaching the resumption interval (4006) - increasing resumption interval to 4019
+3988.904 (0) S3 chunked upload: 32.3 % uploaded (32, "2c5da9ae3833ff65598e237d2ab96900")
+3999.225 (0) The time we have been running (3999.1) is approaching the resumption interval (4019) - increasing resumption interval to 4030
+3999.353 (0) S3 chunked upload: 33.3 % uploaded (33, "5219435c39e19e4d0ee9bee3d72f6bb5")
+4016.585 (0) The time we have been running (4016.3) is approaching the resumption interval (4030) - increasing resumption interval to 4047
+4016.728 (0) S3 chunked upload: 34.3 % uploaded (34, "8e050f8b9df856be4fcf0c44eedd9d10")
+4029.413 (0) The time we have been running (4029.3) is approaching the resumption interval (4047) - increasing resumption interval to 4060
+4029.497 (0) S3 chunked upload: 35.4 % uploaded (35, "788866c26da49916348bc3c0e10cf0f2")
+4045.634 (0) The time we have been running (4045.5) is approaching the resumption interval (4060) - increasing resumption interval to 4076
+4045.725 (0) S3 chunked upload: 36.4 % uploaded (36, "2acc415ef01982bd6d125c9b10f7e401")
+4060.854 (0) The time we have been running (4060.7) is approaching the resumption interval (4076) - increasing resumption interval to 4091
+4060.989 (0) S3 chunked upload: 37.4 % uploaded (37, "8f11f93d0ed0c028b615304774808e72")
+4068.879 (0) The time we have been running (4068.7) is approaching the resumption interval (4091) - increasing resumption interval to 4099
+4068.999 (0) S3 chunked upload: 38.4 % uploaded (38, "51795fa9c364577722b509997f9fb9af")
+4077.992 (0) The time we have been running (4077.9) is approaching the resumption interval (4099) - increasing resumption interval to 4108
+4078.050 (0) S3 chunked upload: 39.4 % uploaded (39, "e39b2744bbf1d9f9f1449b1aa0239e7f")
+4088.645 (0) The time we have been running (4088.5) is approaching the resumption interval (4108) - increasing resumption interval to 4119
+4088.747 (0) S3 chunked upload: 40.4 % uploaded (40, "d7c0c0fbb8894ce01f0015e420c3fa3b")
+4173.487 (0) The time we have been running (4171.4) is approaching the resumption interval (4119) - increasing resumption interval to 4202
+4175.114 (0) S3 chunked upload: 41.4 % uploaded (41, "ac2897716372b0c544cd67dbeab3073a")
+4245.720 (0) The time we have been running (4245.4) is approaching the resumption interval (4202) - increasing resumption interval to 4276
+4246.043 (0) S3 chunked upload: 42.4 % uploaded (42, "315c1e7793c0e408d542666423d5017f")
+4275.843 (0) The time we have been running (4275.6) is approaching the resumption interval (4276) - increasing resumption interval to 4306
+4276.054 (0) S3 chunked upload: 43.4 % uploaded (43, "61ebc75f5333ab8b89fdd0566515ab33")
+4301.632 (0) The time we have been running (4301.5) is approaching the resumption interval (4306) - increasing resumption interval to 4332
+4301.774 (0) S3 chunked upload: 44.4 % uploaded (44, "0b356971fee1b3a5fedd25c64c84de39")
+4318.259 (0) The time we have been running (4318) is approaching the resumption interval (4332) - increasing resumption interval to 4349
+4318.403 (0) S3 chunked upload: 45.5 % uploaded (45, "1e532372fd560fa53439b390030eb57c")
+4332.151 (0) The time we have been running (4332) is approaching the resumption interval (4349) - increasing resumption interval to 4362
+4332.285 (0) S3 chunked upload: 46.5 % uploaded (46, "b2782bc71cc1c6ec3104dd9fbcfbff3e")
+4347.334 (0) The time we have been running (4347.2) is approaching the resumption interval (4362) - increasing resumption interval to 4378
+4347.414 (0) S3 chunked upload: 47.5 % uploaded (47, "22f08b7192a160b8bd5ab0e98c12e362")
+4363.352 (0) The time we have been running (4363.2) is approaching the resumption interval (4378) - increasing resumption interval to 4394
+4363.501 (0) S3 chunked upload: 48.5 % uploaded (48, "dafc2309abaa3edc2ac54235094700b4")
+4372.475 (0) The time we have been running (4372.3) is approaching the resumption interval (4394) - increasing resumption interval to 4403
+4372.645 (0) S3 chunked upload: 49.5 % uploaded (49, "e28364a23acce894b661e985a7df96a2")
+4387.149 (0) The time we have been running (4387) is approaching the resumption interval (4403) - increasing resumption interval to 4417
+4387.225 (0) S3 chunked upload: 50.5 % uploaded (50, "23ae67937730d0e79308c44066ebdfe3")
+4396.089 (0) The time we have been running (4396) is approaching the resumption interval (4417) - increasing resumption interval to 4426
+4396.248 (0) S3 chunked upload: 51.5 % uploaded (51, "6926bdaa10069f535830716fd1abe616")
+4415.556 (0) The time we have been running (4415.1) is approaching the resumption interval (4426) - increasing resumption interval to 4446
+4415.802 (0) S3 chunked upload: 52.5 % uploaded (52, "4880cbdf0ecba169cf97d60fe8b954d7")
+4433.810 (0) The time we have been running (4433.6) is approaching the resumption interval (4446) - increasing resumption interval to 4464
+4433.961 (0) S3 chunked upload: 53.5 % uploaded (53, "0c09466e8b8f87647640fc24a37f49b3")
+4447.685 (0) The time we have been running (4447.5) is approaching the resumption interval (4464) - increasing resumption interval to 4478
+4447.788 (0) S3 chunked upload: 54.5 % uploaded (54, "40ecb541f5d41144e39d8186de12594b")
+4462.046 (0) The time we have been running (4461.9) is approaching the resumption interval (4478) - increasing resumption interval to 4492
+4462.115 (0) S3 chunked upload: 55.6 % uploaded (55, "b60c8928d047e7b18600341814df860d")
+4472.491 (0) The time we have been running (4472.2) is approaching the resumption interval (4492) - increasing resumption interval to 4503
+4472.677 (0) S3 chunked upload: 56.6 % uploaded (56, "50f2b2f60b36278babbcc374c5040b55")
+4479.994 (0) The time we have been running (4479.9) is approaching the resumption interval (4503) - increasing resumption interval to 4510
+4480.130 (0) S3 chunked upload: 57.6 % uploaded (57, "2a83f61631b311d37662cae32196c9f5")
+4533.556 (0) The time we have been running (4533.4) is approaching the resumption interval (4510) - increasing resumption interval to 4564
+4533.664 (0) S3 chunked upload: 58.6 % uploaded (58, "0970827d8b376d8f67fc47e6ac935860")
+4554.080 (0) The time we have been running (4553.7) is approaching the resumption interval (4564) - increasing resumption interval to 4584
+4554.212 (0) S3 chunked upload: 59.6 % uploaded (59, "7b5c5340adbebbccfa67e7cf407fa7fd")
+4573.880 (0) The time we have been running (4573.7) is approaching the resumption interval (4584) - increasing resumption interval to 4604
+4574.058 (0) S3 chunked upload: 60.6 % uploaded (60, "b2ef1411f894f6c4ab47d533f7743892")
+4583.745 (0) The time we have been running (4583.3) is approaching the resumption interval (4604) - increasing resumption interval to 4614
+4584.162 (0) S3 chunked upload: 61.6 % uploaded (61, "10a0a8c4dc2a495979a06880459d0795")
+0000.000 (1) Opened log file at time: Wed, 30 Oct 2019 20:31:51 +0000 on http://dev.padma.com/wp
+0000.033 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 48.6M | 54.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.054 (1) Free space on disk containing Updraft's temporary directory: 138128.6 MB
+0000.076 (1) This backup task (1b9f73a86425) is either complete or began over 2 days ago: ending (1572467511.4828, ) (existing jobdata keys: )
+4595.363 (0) The time we have been running (4595.1) is approaching the resumption interval (4614) - increasing resumption interval to 4626
+4595.576 (0) S3 chunked upload: 62.6 % uploaded (62, "17ac4b161394b745526426959825afbe")
+4610.759 (0) The time we have been running (4610.5) is approaching the resumption interval (4626) - increasing resumption interval to 4641
+4610.917 (0) S3 chunked upload: 63.6 % uploaded (63, "bbf00459e1662903a3265bcfaa2c1842")
+4633.310 (0) The time we have been running (4633.2) is approaching the resumption interval (4641) - increasing resumption interval to 4664
+4633.387 (0) S3 chunked upload: 64.6 % uploaded (64, "bbb4a85ed34ee3a3cb8537116cb2af86")
+4652.443 (0) The time we have been running (4652.3) is approaching the resumption interval (4664) - increasing resumption interval to 4683
+4652.585 (0) S3 chunked upload: 65.7 % uploaded (65, "ad4f87b8d430829e0b75d2a494f00b3b")
+4666.946 (0) The time we have been running (4666.8) is approaching the resumption interval (4683) - increasing resumption interval to 4697
+4667.012 (0) S3 chunked upload: 66.7 % uploaded (66, "76cb5882c5142216b6f77c8babbef3af")
+4678.123 (0) The time we have been running (4677.9) is approaching the resumption interval (4697) - increasing resumption interval to 4708
+4678.238 (0) S3 chunked upload: 67.7 % uploaded (67, "0547d8d1baf91fbe54b5643b2cc51b11")
+4687.121 (0) The time we have been running (4686.7) is approaching the resumption interval (4708) - increasing resumption interval to 4717
+4687.260 (0) S3 chunked upload: 68.7 % uploaded (68, "e5fe0101fc3caf69b6a48ca81e5d2951")
+4693.978 (0) The time we have been running (4693.8) is approaching the resumption interval (4717) - increasing resumption interval to 4724
+4694.073 (0) S3 chunked upload: 69.7 % uploaded (69, "169bc097b98ca4623f939b2a4971c1b1")
+4706.166 (0) The time we have been running (4706) is approaching the resumption interval (4724) - increasing resumption interval to 4737
+4706.293 (0) S3 chunked upload: 70.7 % uploaded (70, "d306904b864491389c93ad4913b9dc34")
+4718.736 (0) The time we have been running (4718.6) is approaching the resumption interval (4737) - increasing resumption interval to 4749
+4719.002 (0) S3 chunked upload: 71.7 % uploaded (71, "4feec936bc43bc49e491ee369675f3a9")
+4727.510 (0) The time we have been running (4727.4) is approaching the resumption interval (4749) - increasing resumption interval to 4758
+4727.572 (0) S3 chunked upload: 72.7 % uploaded (72, "b7d7b0242c29f299f0d08b6e7a48810c")
+4735.622 (0) The time we have been running (4735.5) is approaching the resumption interval (4758) - increasing resumption interval to 4766
+4735.726 (0) S3 chunked upload: 73.7 % uploaded (73, "64087472ffafb01bea889a624ac25391")
+4748.478 (0) The time we have been running (4748.3) is approaching the resumption interval (4766) - increasing resumption interval to 4779
+4748.603 (0) S3 chunked upload: 74.7 % uploaded (74, "921af91132d0668e8875303e4315115f")
+4754.137 (0) The time we have been running (4754) is approaching the resumption interval (4779) - increasing resumption interval to 4785
+4754.202 (0) S3 chunked upload: 75.8 % uploaded (75, "6255ff6494162e0f07fcb87a24ac95c8")
+4762.554 (0) The time we have been running (4762.3) is approaching the resumption interval (4785) - increasing resumption interval to 4793
+4763.056 (0) S3 chunked upload: 76.8 % uploaded (76, "700dcbe28ae2be88520ffdfcb5f1cb4e")
+4796.613 (0) The time we have been running (4796.3) is approaching the resumption interval (4793) - increasing resumption interval to 4827
+4796.777 (0) S3 chunked upload: 77.8 % uploaded (77, "a5a76b54a9eccc7ae75999f786c8f313")
+4812.591 (0) The time we have been running (4812.4) is approaching the resumption interval (4827) - increasing resumption interval to 4843
+4812.704 (0) S3 chunked upload: 78.8 % uploaded (78, "cba9e8ec38cb39814724b716b28603ee")
+4822.089 (0) The time we have been running (4822) is approaching the resumption interval (4843) - increasing resumption interval to 4853
+4822.156 (0) S3 chunked upload: 79.8 % uploaded (79, "c4917e5f9a95416e09134973109e275c")
+4835.360 (0) The time we have been running (4835.2) is approaching the resumption interval (4853) - increasing resumption interval to 4866
+4835.499 (0) S3 chunked upload: 80.8 % uploaded (80, "0cce2d6c88b01cbf3ef2cbd222d12d2a")
+4846.167 (0) The time we have been running (4846) is approaching the resumption interval (4866) - increasing resumption interval to 4876
+4846.305 (0) S3 chunked upload: 81.8 % uploaded (81, "12486e3575278828f2e7e6240281ec3c")
+4861.577 (0) The time we have been running (4861.4) is approaching the resumption interval (4876) - increasing resumption interval to 4892
+4861.692 (0) S3 chunked upload: 82.8 % uploaded (82, "1a360c629d4bdbdb070c78c6df727e7c")
+4870.285 (0) The time we have been running (4870.2) is approaching the resumption interval (4892) - increasing resumption interval to 4901
+4870.396 (0) S3 chunked upload: 83.8 % uploaded (83, "093af94938e3b4d8436ee160014d7137")
+4881.072 (0) The time we have been running (4880.6) is approaching the resumption interval (4901) - increasing resumption interval to 4911
+4881.263 (0) S3 chunked upload: 84.8 % uploaded (84, "15a8a26bd4a44b19142c301d79859602")
+4898.375 (0) The time we have been running (4898.2) is approaching the resumption interval (4911) - increasing resumption interval to 4929
+4898.497 (0) S3 chunked upload: 85.9 % uploaded (85, "4073ad91180674cd56ac4e947a1e8c3d")
+4907.480 (0) The time we have been running (4907.3) is approaching the resumption interval (4929) - increasing resumption interval to 4938
+4907.805 (0) S3 chunked upload: 86.9 % uploaded (86, "938401b837892f9ecbb6b139a0d1fa4c")
+4924.760 (0) The time we have been running (4924.5) is approaching the resumption interval (4938) - increasing resumption interval to 4955
+4924.911 (0) S3 chunked upload: 87.9 % uploaded (87, "969c50de4bb8c6b8a6aa05fc6d0ba03b")
+4934.811 (0) The time we have been running (4934.7) is approaching the resumption interval (4955) - increasing resumption interval to 4965
+4934.885 (0) S3 chunked upload: 88.9 % uploaded (88, "d21271d124454c6107f9ed942457ee0a")
+4944.207 (0) The time we have been running (4944.1) is approaching the resumption interval (4965) - increasing resumption interval to 4975
+4944.309 (0) S3 chunked upload: 89.9 % uploaded (89, "77034b6a6cafe637483d3e1231f96e06")
+4954.568 (0) The time we have been running (4954.4) is approaching the resumption interval (4975) - increasing resumption interval to 4985
+4954.709 (0) S3 chunked upload: 90.9 % uploaded (90, "416431933b1beee657b811245eae9ada")
+4977.377 (0) The time we have been running (4977.3) is approaching the resumption interval (4985) - increasing resumption interval to 5008
+4977.449 (0) S3 chunked upload: 91.9 % uploaded (91, "fa1d781a8fdb839ff2b93c7222c3b8c5")
+4993.057 (0) The time we have been running (4992.8) is approaching the resumption interval (5008) - increasing resumption interval to 5023
+4993.185 (0) S3 chunked upload: 92.9 % uploaded (92, "b48370bf417f153e3d2fe314fefec382")
+5000.842 (0) The time we have been running (5000.5) is approaching the resumption interval (5023) - increasing resumption interval to 5031
+5001.075 (0) S3 chunked upload: 93.9 % uploaded (93, "d52d9afac0d5619f6c522831e86ab946")
+5066.376 (0) The time we have been running (5066) is approaching the resumption interval (5031) - increasing resumption interval to 5097
+5066.582 (0) S3 chunked upload: 94.9 % uploaded (94, "6f7d640b872eff1e9c943017c37caf8a")
+5103.581 (0) The time we have been running (5103.4) is approaching the resumption interval (5097) - increasing resumption interval to 5134
+5103.697 (0) S3 chunked upload: 96 % uploaded (95, "05ea707bcc82b15e59e88ac53ccdca28")
+5117.435 (0) The time we have been running (5117.3) is approaching the resumption interval (5134) - increasing resumption interval to 5148
+5117.544 (0) S3 chunked upload: 97 % uploaded (96, "0332295920475e5557c38dd478be6ae3")
+5140.364 (0) The time we have been running (5140.2) is approaching the resumption interval (5148) - increasing resumption interval to 5171
+5140.481 (0) S3 chunked upload: 98 % uploaded (97, "6a00eeda43bda7659f14be673dd1bedf")
+5167.990 (0) The time we have been running (5167.8) is approaching the resumption interval (5171) - increasing resumption interval to 5198
+5168.075 (0) S3 chunked upload: 99 % uploaded (98, "f840da5532bdb61889432d0f5c97c69f")
+5175.645 (0) The time we have been running (5175.5) is approaching the resumption interval (5198) - increasing resumption interval to 5206
+5175.741 (0) S3 chunked upload: 100 % uploaded (99, "5e8a76bc46c6aefb8798fc9bf0e31b0a")
+5175.873 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+5176.209 (0) Amazon S3: upload (uploads2): re-assembly succeeded
+5176.276 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip
+5176.401 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads3.zip: OK
+5176.429 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip (chunks: 13) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip
+5176.573 (0) Amazon S3: chunked upload: got multipart ID: 4bpwPgvDN4hGniFxZg98pmi7o4aRfSATjIJfjKJ2oG4odY86exaCMSuLvsEdAFsLs8_xA7s1stRGicmCAaY6FVgR98lQ2NTwH7tb4g3mc008uSye1JYrGZO6PAulz17i
+5205.010 (0) The time we have been running (5204.9) is approaching the resumption interval (5206) - increasing resumption interval to 5235
+5205.085 (0) S3 chunked upload: 7.7 % uploaded (1, "2ce357112ec7609a166cff4ba992c5dc")
+5224.187 (0) The time we have been running (5224) is approaching the resumption interval (5235) - increasing resumption interval to 5255
+5224.330 (0) S3 chunked upload: 15.4 % uploaded (2, "f942ec0bcc1bc4ee9b4caa6e2c1d2203")
+5237.854 (0) The time we have been running (5237.4) is approaching the resumption interval (5255) - increasing resumption interval to 5268
+5238.242 (0) S3 chunked upload: 23.1 % uploaded (3, "eb9e12500e7130463ba86ac97eb4562d")
+5264.353 (0) The time we have been running (5264.2) is approaching the resumption interval (5268) - increasing resumption interval to 5295
+5264.416 (0) S3 chunked upload: 30.8 % uploaded (4, "9af0cf1bf840725a3008863232c0b041")
+5276.061 (0) The time we have been running (5275.7) is approaching the resumption interval (5295) - increasing resumption interval to 5306
+5276.337 (0) S3 chunked upload: 38.5 % uploaded (5, "21da892e7c502d8ac77f86099e02e804")
+5291.561 (0) The time we have been running (5291.5) is approaching the resumption interval (5306) - increasing resumption interval to 5322
+5291.644 (0) S3 chunked upload: 46.2 % uploaded (6, "28460a7b64503aa204a953ac723bfe36")
+5307.302 (0) The time we have been running (5306.9) is approaching the resumption interval (5322) - increasing resumption interval to 5337
+5307.420 (0) S3 chunked upload: 53.8 % uploaded (7, "91035e48da9708345308de4dd6aa6981")
+5312.710 (0) The time we have been running (5312.5) is approaching the resumption interval (5337) - increasing resumption interval to 5343
+5312.843 (0) S3 chunked upload: 61.5 % uploaded (8, "4af70c777fb51fed25fbc371edd73844")
+5326.154 (0) The time we have been running (5326) is approaching the resumption interval (5343) - increasing resumption interval to 5357
+5326.249 (0) S3 chunked upload: 69.2 % uploaded (9, "f389ed1e4e76813a59de2c0b815b3cc9")
+5333.849 (0) The time we have been running (5333.5) is approaching the resumption interval (5357) - increasing resumption interval to 5364
+5333.996 (0) S3 chunked upload: 76.9 % uploaded (10, "d05132685dad62af220bb26884d812f9")
+5360.447 (0) The time we have been running (5360.2) is approaching the resumption interval (5364) - increasing resumption interval to 5391
+5360.581 (0) S3 chunked upload: 84.6 % uploaded (11, "5eac6f5d3b0b3fd32370f84001a7bec9")
+5370.091 (0) The time we have been running (5369.9) is approaching the resumption interval (5391) - increasing resumption interval to 5400
+5370.177 (0) S3 chunked upload: 92.3 % uploaded (12, "25056d74910cb2b0a107cf0bc7120076")
+5373.476 (0) The time we have been running (5373.3) is approaching the resumption interval (5400) - increasing resumption interval to 5404
+5373.728 (0) S3 chunked upload: 100 % uploaded (13, "56db352d8de105deaccf95fbaa84376a")
+5374.088 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+5374.384 (0) Amazon S3: upload (uploads3): re-assembly succeeded
+5374.450 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip
+5374.684 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-uploads4.zip: OK
+5374.714 (0) Amazon S3: upload (): backup_2019-10-30-1215_Padma_1b9f73a86425-others.zip (chunks: 1) -> s3://scarletfaery.backups/backup_2019-10-30-1215_Padma_1b9f73a86425-others.zip
+5374.916 (0) Amazon S3: regular upload: success
+5375.020 (0) Recording as successfully uploaded: backup_2019-10-30-1215_Padma_1b9f73a86425-others.zip
+5375.142 (0) Deleting local file: backup_2019-10-30-1215_Padma_1b9f73a86425-others.zip: OK
+5375.345 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5375.394 (0) Number of backup sets in history: 4; groups (db): 1
+5375.463 (0) Examining (for databases) backup set with group_id=0, nonce=1bd1db3bb534, datestamp=1572467462 (Oct 30 2019 20:31:02)
+5375.521 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+5375.568 (0) Examining (for databases) backup set with group_id=0, nonce=f06a1dae8d42, datestamp=1568399212 (Sep 13 2019 18:26:52)
+5375.568 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+5375.568 (0) Examining (for databases) backup set with group_id=0, nonce=6c2a1ae9d5db, datestamp=1566066466 (Aug 17 2019 18:27:46)
+5375.568 (0) Examining (for databases) backup set with group_id=0, nonce=3be7bd6af3e0, datestamp=1563474490 (Jul 18 2019 18:28:10)
+5375.568 (0) Number of backup sets in history: 4; groups (files): 1
+5375.602 (0) Examining (for files) backup set with nonce=1bd1db3bb534, datestamp=1572467462 (Oct 30 2019 20:31:02)
+5375.602 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+5375.670 (0) Examining (for files) backup set with nonce=f06a1dae8d42, datestamp=1568399212 (Sep 13 2019 18:26:52)
+5375.670 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+5375.670 (0) Examining (for files) backup set with nonce=6c2a1ae9d5db, datestamp=1566066466 (Aug 17 2019 18:27:46)
+5375.670 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+5375.695 (0) Examining (for files) backup set with nonce=3be7bd6af3e0, datestamp=1563474490 (Jul 18 2019 18:28:10)
+5375.695 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+5375.696 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5375.878 (0) Resume backup (1b9f73a86425, 0): finish run
+5375.966 (0) Decremented the semaphore (f) by 1
+5376.079 (0) Semaphore (f, wp_options) still locked (0)
+5376.102 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+5376.218 (0) No email will/can be sent - the user has not configured an email address.
+5376.352 (0) The backup apparently succeeded and is now complete

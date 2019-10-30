@@ -1,0 +1,189 @@
+0000.004 (0) Opened log file at time: Wed, 30 Oct 2019 18:30:03 +0000 on http://dev.padma.com/wp
+0000.079 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 35.4M | 36.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.106 (0) Free space on disk containing Updraft's temporary directory: 138636.1 MB
+0000.158 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: weekly)
+0000.185 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.272 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1529778870, seconds_ago=42681333)
+0000.351 (0) Semaphore (f, wp_options) was stuck, set lock time to 2019-10-30 18:30:03
+0000.436 (0) Semaphore (f, wp_options) reset to 1
+0000.491 (0) Set semaphore last lock (f) time to 2019-10-30 18:30:03
+0000.519 (0) Semaphore lock (f) complete
+0000.678 (0) Backup run: resumption=0, nonce=14bf37c294da, file_nonce=14bf37c294da begun at=1572460203 (0s ago), job type=backup
+0000.734 (0) Scheduling a resumption (1) after 300 seconds (1572460503) in case this run gets aborted
+0000.808 (0) Checking if we have a zip executable available
+0000.858 (0) Creation of backups of directories: beginning
+0000.940 (0) Beginning creation of dump of plugins (split every: 500 MB)
+0003.162 (0) Total entities for the zip file: 992 directories, 4098 files (0 skipped as non-modified), 50.8 MB
+0003.235 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.310 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.380 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.452 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.519 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.543 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20.8 MB, 4098 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0053.024 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 600 files added (on-disk size: 8017.8 KB)
+0053.432 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 700 files added (on-disk size: 8017.8 KB)
+0054.148 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 800 files added (on-disk size: 8017.8 KB)
+0054.956 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 365 (866) files added so far); re-opening (prior size: 8017.8 KB)
+0059.804 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 900 files added (on-disk size: 8735 KB)
+0060.057 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1000 files added (on-disk size: 8735 KB)
+0060.202 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1100 files added (on-disk size: 8735 KB)
+0060.345 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1200 files added (on-disk size: 8735 KB)
+0060.506 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1300 files added (on-disk size: 8735 KB)
+0060.606 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 4098 files batched, 501 (1367) added so far); re-opening (prior size: 8735 KB)
+0063.979 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1400 files added (on-disk size: 9458.9 KB)
+0064.469 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1500 files added (on-disk size: 9458.9 KB)
+0064.675 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1600 files added (on-disk size: 9458.9 KB)
+0064.812 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1700 files added (on-disk size: 9458.9 KB)
+0064.933 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1800 files added (on-disk size: 9458.9 KB)
+0065.034 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 4098 files batched, 501 (1868) added so far); re-opening (prior size: 9458.9 KB)
+0069.774 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 1900 files added (on-disk size: 10316.2 KB)
+0069.901 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2000 files added (on-disk size: 10316.2 KB)
+0070.024 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2100 files added (on-disk size: 10316.2 KB)
+0070.157 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2200 files added (on-disk size: 10316.2 KB)
+0070.299 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2300 files added (on-disk size: 10316.2 KB)
+0070.397 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 MB, 4098 files batched, 501 (2369) added so far); re-opening (prior size: 10316.2 KB)
+0074.006 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2400 files added (on-disk size: 10894 KB)
+0074.178 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2500 files added (on-disk size: 10894 KB)
+0074.310 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2600 files added (on-disk size: 10894 KB)
+0074.460 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2700 files added (on-disk size: 10894 KB)
+0074.713 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2800 files added (on-disk size: 10894 KB)
+0074.812 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.1 MB, 4098 files batched, 501 (2870) added so far); re-opening (prior size: 10894 KB)
+0081.651 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 2900 files added (on-disk size: 11754.9 KB)
+0081.777 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3000 files added (on-disk size: 11754.9 KB)
+0081.935 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3100 files added (on-disk size: 11754.9 KB)
+0082.185 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3200 files added (on-disk size: 11754.9 KB)
+0082.540 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3300 files added (on-disk size: 11754.9 KB)
+0082.682 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.4 MB, 4098 files batched, 501 (3371) added so far); re-opening (prior size: 11754.9 KB)
+0087.989 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3400 files added (on-disk size: 12938 KB)
+0088.244 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3500 files added (on-disk size: 12938 KB)
+0088.451 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3600 files added (on-disk size: 12938 KB)
+0088.659 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3700 files added (on-disk size: 12938 KB)
+0088.792 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3800 files added (on-disk size: 12938 KB)
+0088.904 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 4098 files batched, 501 (3872) added so far); re-opening (prior size: 12938 KB)
+0095.431 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 3900 files added (on-disk size: 14008.5 KB)
+0095.569 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip.tmp: 4000 files added (on-disk size: 14008.5 KB)
+0098.316 (0) Created plugins zip (0) - 14326.2 KB in 97.3 s (147.2 KB/s) (sha1: f6f8b7fb8e0ac05206b075e0d9feabda573887b4, sha256: 3d372e2907b4ac6a25febbbe1aa92f7700de08fbec9239782c9d68082c5a5845)
+0098.391 (0) Beginning creation of dump of themes (split every: 500 MB)
+0099.163 (0) Total entities for the zip file: 279 directories, 1628 files (0 skipped as non-modified), 18.1 MB
+0099.243 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0099.315 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0099.400 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0099.476 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0099.558 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0099.596 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 MB, 1628 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0102.601 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 600 files added (on-disk size: 1766 KB)
+0102.703 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 700 files added (on-disk size: 1766 KB)
+0102.817 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 800 files added (on-disk size: 1766 KB)
+0102.916 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 900 files added (on-disk size: 1766 KB)
+0103.017 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1000 files added (on-disk size: 1766 KB)
+0103.049 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.4 MB, 1628 files batched, 501 (1002) added so far); re-opening (prior size: 1766 KB)
+0104.914 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1100 files added (on-disk size: 7863 KB)
+0105.021 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1200 files added (on-disk size: 7863 KB)
+0105.132 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1300 files added (on-disk size: 7863 KB)
+0105.239 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1400 files added (on-disk size: 7863 KB)
+0105.338 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1500 files added (on-disk size: 7863 KB)
+0105.371 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 1628 files batched, 501 (1503) added so far); re-opening (prior size: 7863 KB)
+0107.545 (0) Zip: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip.tmp: 1600 files added (on-disk size: 8962.1 KB)
+0109.261 (0) Created themes zip (0) - 10620.7 KB in 10.8 s (980.2 KB/s) (sha1: 0e802226f65988fe37ee14b4cedd6391c89563a1, sha256: 07465c596871703c84ef1971d5b2241ac63ffd90f53316b825f5c58ff5dc213d)
+0109.321 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0109.346 (0) Looking for candidates to backup in: /srv/www/dev.padma.com/current/web/app/uploads
+0109.379 (0) finding files: lets-blog: adding to list (1)
+0109.406 (0) finding files: .gitkeep: adding to list (2)
+0109.432 (0) finding files: 2019: adding to list (3)
+0109.464 (0) Beginning creation of dump of uploads (split every: 500 MB)
+0109.529 (0) Total entities for the zip file: 3 directories, 3 files (0 skipped as non-modified), 0.3 MB
+0109.674 (0) Created uploads zip (0) - 55.6 KB in 0.2 s (313.9 KB/s) (sha1: 3c0e6d4d5ee407795d8c9d5d50040d9967a7883c, sha256: ab321603c22e6759c4857eebd4d69af3ac66e349ec95531e455c70d95d4d9dd4)
+0109.754 (0) Beginning backup of other directories found in the content directory (index: 0)
+0109.783 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+0109.809 (0) Looking for candidates to backup in: /srv/www/dev.padma.com/current/web/app
+0109.841 (0) finding files: .DS_Store: adding to list (1)
+0109.861 (0) finding files: plugins: skipping: this is the plugins directory
+0109.885 (0) finding files: uploads: skipping: this is the uploads directory
+0109.905 (0) finding files: updraft: skipping: this is the updraft directory
+0109.925 (0) finding files: themes: skipping: this is the themes directory
+0109.959 (0) finding files: mu-plugins: adding to list (2)
+0110.031 (0) Total entities for the zip file: 1 directories, 4 files (0 skipped as non-modified), 0 MB
+0110.155 (0) Created others zip (0) - 3.4 KB in 0.2 s (20.3 KB/s) (sha1: 0e8cf24345936d9f93d03a55a202635dae433695, sha256: ad6c0c1729b5096bbe3e7c4c9c8184c2cbe1b439e5c4662a948e6e84064c4db0)
+0110.276 (0) Saving backup status to database (elements: 8)
+0110.415 (0) No database backup (wp) - not part of this run
+0110.541 (0) backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0110.571 (0) backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0110.596 (0) backup_2019-10-30-1130_Padma_14bf37c294da-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0110.627 (0) backup_2019-10-30-1130_Padma_14bf37c294da-others.zip: others: This file has not yet been successfully uploaded: will queue
+0110.655 (0) Saving backup history. Total backup size: 24.4 MB
+0110.840 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0110.958 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0110.994 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-3f1904527b3bf4ca79664413523e44e7)
+0111.648 (0) Amazon S3: upload (): backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip (chunks: 3) -> s3://scarletfaery.backups/backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip
+0111.786 (0) Amazon S3: chunked upload: got multipart ID: bm_dk994cgp_Ke2IqlsMP2T9KNvzXMqPISI72KHJACmcVM2.KGB7vDHHAExoteE5i047CIe1zTFrnQwk09GhLWd7rB_Fp7cHPBzd38.U7vzBPtfvvTrqaI6S2AAGz3r4
+0124.639 (0) S3 chunked upload: 33.3 % uploaded (1, "b4b302e27235ce92622871b3d5d21509")
+0129.811 (0) S3 chunked upload: 66.7 % uploaded (2, "08a53f654de34958d3c4ad1a8d3e776f")
+0133.617 (0) S3 chunked upload: 100 % uploaded (3, "d92d71e2e2d28e40690b7da7aed677e0")
+0133.719 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0133.972 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+0134.027 (0) Recording as successfully uploaded: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip
+0134.097 (0) Deleting local file: backup_2019-10-30-1130_Padma_14bf37c294da-plugins.zip: OK
+0134.131 (0) Amazon S3: upload (): backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip (chunks: 3) -> s3://scarletfaery.backups/backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip
+0134.277 (0) Amazon S3: chunked upload: got multipart ID: RrdXJ_q7oDm1ZAbDRQj8AJ3DxP77Z.scwy6zcs8uiU0exCoYYzv_I2STN0YdD1STOu8nub9m7iq7eXxzkOvo7AUkEZqQiu6k7asGq3GSGuvk65aArYrMqNGXkfkmrOCn
+0139.297 (0) S3 chunked upload: 33.3 % uploaded (1, "06b228982ea170801cc903b329bae9b2")
+0144.593 (0) S3 chunked upload: 66.7 % uploaded (2, "7a082878f35194c2e8f7086cf9f7e348")
+0145.277 (0) S3 chunked upload: 100 % uploaded (3, "04fadea46cd0185b5fb3014f405acaca")
+0145.364 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0145.604 (0) Amazon S3: upload (themes0): re-assembly succeeded
+0145.666 (0) Recording as successfully uploaded: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip
+0145.722 (0) Deleting local file: backup_2019-10-30-1130_Padma_14bf37c294da-themes.zip: OK
+0145.749 (0) Amazon S3: upload (): backup_2019-10-30-1130_Padma_14bf37c294da-uploads.zip (chunks: 1) -> s3://scarletfaery.backups/backup_2019-10-30-1130_Padma_14bf37c294da-uploads.zip
+0146.302 (0) Amazon S3: regular upload: success
+0146.355 (0) Recording as successfully uploaded: backup_2019-10-30-1130_Padma_14bf37c294da-uploads.zip
+0146.455 (0) Deleting local file: backup_2019-10-30-1130_Padma_14bf37c294da-uploads.zip: OK
+0146.490 (0) Amazon S3: upload (): backup_2019-10-30-1130_Padma_14bf37c294da-others.zip (chunks: 1) -> s3://scarletfaery.backups/backup_2019-10-30-1130_Padma_14bf37c294da-others.zip
+0146.646 (0) Amazon S3: regular upload: success
+0146.698 (0) Recording as successfully uploaded: backup_2019-10-30-1130_Padma_14bf37c294da-others.zip
+0146.761 (0) Deleting local file: backup_2019-10-30-1130_Padma_14bf37c294da-others.zip: OK
+0146.909 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0146.989 (0) Number of backup sets in history: 4; groups (db): 1
+0147.040 (0) Examining (for databases) backup set with group_id=0, nonce=14bf37c294da, datestamp=1572460203 (Oct 30 2019 18:30:03)
+0147.067 (0) Examining (for databases) backup set with group_id=0, nonce=9108d887cb1a, datestamp=1530766585 (Jul 05 2018 04:56:25)
+0147.067 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0147.096 (0) Examining (for databases) backup set with group_id=0, nonce=4ffd5947e81a, datestamp=1529778870 (Jun 23 2018 18:34:30)
+0147.096 (0) Examining (for databases) backup set with group_id=0, nonce=7fe42f712d34, datestamp=1529692343 (Jun 22 2018 18:32:23)
+0147.096 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0147.147 (0) Number of backup sets in history: 4; groups (files): 1
+0147.187 (0) Examining (for files) backup set with nonce=14bf37c294da, datestamp=1572460203 (Oct 30 2019 18:30:03)
+0147.187 (0) This backup set is the backup set just made, so will not be deleted.
+0147.244 (0) This backup set is the backup set just made, so will not be deleted.
+0147.245 (0) This backup set is the backup set just made, so will not be deleted.
+0147.245 (0) This backup set is the backup set just made, so will not be deleted.
+0147.245 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0147.274 (0) Examining (for files) backup set with nonce=9108d887cb1a, datestamp=1530766585 (Jul 05 2018 04:56:25)
+0147.274 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0147.303 (0) Examining (for files) backup set with nonce=4ffd5947e81a, datestamp=1529778870 (Jun 23 2018 18:34:30)
+0147.303 (0) plugins: over retain limit (2); will delete this file entity
+0147.303 (0) themes: over retain limit (2); will delete this file entity
+0147.303 (0) uploads: over retain limit (2); will delete this file entity
+0147.303 (0) others: over retain limit (2); will delete this file entity
+0147.303 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-plugins.zip, service=s3
+0147.336 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-themes.zip, service=s3
+0147.364 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads.zip, service=s3
+0147.394 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads2.zip, service=s3
+0147.450 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads3.zip, service=s3
+0147.476 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads4.zip, service=s3
+0147.504 (0) Delete file: backup_2018-06-23-1134_Padma_4ffd5947e81a-others.zip, service=s3
+0147.534 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-plugins.zip
+0147.724 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-themes.zip
+0147.863 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads.zip
+0148.013 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads2.zip
+0148.181 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads3.zip
+0148.322 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-uploads4.zip
+0148.484 (0) Amazon S3: Delete remote: bucket=scarletfaery.backups, URI=backup_2018-06-23-1134_Padma_4ffd5947e81a-others.zip
+0148.667 (0) This backup set is now empty; will remove from history
+0148.701 (0) Corresponding log file (log.4ffd5947e81a.txt) not found - must have already been deleted
+0148.727 (0) Examining (for files) backup set with nonce=7fe42f712d34, datestamp=1529692343 (Jun 22 2018 18:32:23)
+0148.727 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0148.750 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0148.868 (0) Resume backup (14bf37c294da, 0): finish run
+0148.950 (0) Decremented the semaphore (f) by 1
+0149.007 (0) Semaphore (f) unlocked
+0149.035 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0149.129 (0) No email will/can be sent - the user has not configured an email address.
+0149.159 (0) The backup apparently succeeded and is now complete

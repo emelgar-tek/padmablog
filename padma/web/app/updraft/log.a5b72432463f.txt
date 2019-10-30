@@ -1,0 +1,37 @@
+0149.304 (1) Opened log file at time: Wed, 30 Oct 2019 18:32:32 +0000 on http://dev.padma.com/wp
+0149.352 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 40.3M | 42.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0149.381 (1) Free space on disk containing Updraft's temporary directory: 138639 MB
+0149.467 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1572460352.3, time_now=1572460352.3, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0149.493 (1) Rescheduling resumption 2: moving to 420 seconds from now (1572460772)
+0149.603 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0024.100 (2) Opened log file at time: Wed, 30 Oct 2019 18:46:33 +0000 on http://dev.padma.com/wp
+0024.152 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 49.3M | 56.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0024.176 (2) Free space on disk containing Updraft's temporary directory: 138328.3 MB
+0024.265 (2) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1572461193.3, time_now=1572461193.5, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0024.337 (2) Rescheduling resumption 3: moving to 420 seconds from now (1572461613)
+0024.440 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0836.339 (3) Opened log file at time: Wed, 30 Oct 2019 19:00:05 +0000 on http://dev.padma.com/wp
+0836.392 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 42.6M | 44.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0836.417 (3) Free space on disk containing Updraft's temporary directory: 137127.7 MB
+0836.466 (3) Backup run: resumption=3, nonce=a5b72432463f, file_nonce=a5b72432463f begun at=1572461169 (836s ago), job type=backup, previous check-in=0.1s
+0836.496 (3) Terminate: This backup job is already finished (1).
+0000.000 (1) Opened log file at time: Wed, 30 Oct 2019 19:30:17 +0000 on http://dev.padma.com/wp
+0000.045 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 42.7M | 44.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.068 (1) Free space on disk containing Updraft's temporary directory: 136040.6 MB
+0000.093 (1) This backup task (a5b72432463f) is either complete or began over 2 days ago: ending (1572463817.8198, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Wed, 30 Oct 2019 19:45:22 +0000 on http://dev.padma.com/wp
+0000.072 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 42.7M | 44.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.109 (1) Free space on disk containing Updraft's temporary directory: 138662.8 MB
+0000.144 (1) This backup task (a5b72432463f) is either complete or began over 2 days ago: ending (1572464722.5366, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Wed, 30 Oct 2019 20:00:06 +0000 on http://dev.padma.com/wp
+0000.056 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 42M | 44.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.084 (1) Free space on disk containing Updraft's temporary directory: 139041.8 MB
+0000.121 (1) This backup task (a5b72432463f) is either complete or began over 2 days ago: ending (1572465606.4985, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Wed, 30 Oct 2019 20:15:06 +0000 on http://dev.padma.com/wp
+0000.073 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 42M | 44.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0040.809 (1) Free space on disk containing Updraft's temporary directory: 139098.4 MB
+0040.842 (1) This backup task (a5b72432463f) is either complete or began over 2 days ago: ending (1572466506.2514, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Wed, 30 Oct 2019 20:45:00 +0000 on http://dev.padma.com/wp
+0000.095 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.1 PHP: 7.3.11-1+ubuntu18.04.1+deb.sury.org+1 (cli, Linux dev 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019 x86_64) MySQL: 5.7.22-log WPLANG: en_US Server:  safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 93.5M | 110.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.123 (1) Free space on disk containing Updraft's temporary directory: 138205.2 MB
+0000.154 (1) This backup task (a5b72432463f) is either complete or began over 2 days ago: ending (1572468300.3561, ) (existing jobdata keys: )
