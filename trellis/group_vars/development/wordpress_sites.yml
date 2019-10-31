@@ -8,22 +8,22 @@ wordpress_sites:
       - canonical: dev.padma.com
     local_path: ../padma # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: teknovagrant@gmail.com
-    wp_memory_limit: 96M
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
+      provider: self-signed
     cache:
-      enabled: false
+      enabled: true
   dev.tekno.com:
     site_hosts:
       - canonical: dev.tekno.com
     local_path: ../tekno # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: teknovagrant@gmail.com
-    wp_memory_limit: 96M
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
+      provider: self-signed
     cache:
-      enabled: false
+      enabled: true
