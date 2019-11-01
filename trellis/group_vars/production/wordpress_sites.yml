@@ -24,6 +24,8 @@ wordpress_sites:
       duration: 120s
       skip_cache_uri: /wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml
       skip_cache_cookie: comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in
+    h5bp:
+      extra_security: false
 
   teknovagrant.com:
     site_hosts:
