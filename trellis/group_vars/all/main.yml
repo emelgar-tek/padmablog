@@ -22,7 +22,6 @@ raw_vars:
   - vault_users.*.salt
   - vault_wordpress_env_defaults
   - vault_wordpress_sites
-
 php_extensions_custom:
-  - php-imagick
-  - php-bcmath
+  php-imagick: "{{ apt_package_state }}"
+  php-bcmath: "{{ apt_package_state }}"
