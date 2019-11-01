@@ -43,8 +43,6 @@
     "wpackagist-plugin/amazon-s3-and-cloudfront":"dev-trunk",
     "wpackagist-plugin/amazon-web-services":"dev-trunk",
     "wpackagist-plugin/birds-custom-login":"dev-trunk",
-    "wpackagist-plugin/resmushit-image-optimizer":"dev-trunk",
-    "wpackagist-plugin/updraftplus":"1.16.15",
     "wpackagist-plugin/duplicate-page":"dev-trunk",
     "wpackagist-plugin/foobox-image-lightbox":"2.7.8",
     "wpackagist-plugin/foogallery":"1.8.18",
