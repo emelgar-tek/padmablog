@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d2c76f6cde44f3062f7a165af460563",
+    "content-hash": "77063a09e5553327324eb3c8a4468260",
     "packages": [
         {
             "name": "composer/installers",
@@ -752,43 +752,6 @@
             "homepage": "https://wordpress.org/plugins/remove-category-url/"
         },
         {
-            "name": "wpackagist-plugin/resmushit-image-optimizer",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/resmushit-image-optimizer/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.zip?timestamp=1556528604"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/",
-            "time": "2019-04-29T09:03:24+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/updraftplus",
-            "version": "1.16.15",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.16.15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.15.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/updraftplus/"
-        },
-        {
             "name": "wpackagist-plugin/w3-total-cache",
             "version": "dev-trunk",
             "source": {
@@ -1083,7 +1046,6 @@
         "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
         "wpackagist-plugin/amazon-web-services": 20,
         "wpackagist-plugin/birds-custom-login": 20,
-        "wpackagist-plugin/resmushit-image-optimizer": 20,
         "wpackagist-plugin/duplicate-page": 20,
         "wpackagist-plugin/w3-total-cache": 20,
         "wpackagist-plugin/instagram-slider-widget": 20,
