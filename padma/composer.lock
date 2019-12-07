@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac401573bc9cc6b77d1d4bf4c4f75be9",
+    "content-hash": "f97a45caeee2bf8b47295cb935d44df7",
     "packages": [
         {
             "name": "composer/installers",
@@ -570,24 +570,6 @@
             "time": "2018-02-20T18:11:13+00:00"
         },
         {
-            "name": "wpackagist-plugin/autoptimize",
-            "version": "2.5.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.5.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.5.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/autoptimize/"
-        },
-        {
             "name": "wpackagist-plugin/birds-custom-login",
             "version": "dev-trunk",
             "source": {
@@ -752,6 +734,24 @@
             "homepage": "https://wordpress.org/plugins/instagram-slider-widget/"
         },
         {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "8.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.8.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
             "name": "wpackagist-plugin/limit-login-attempts",
             "version": "dev-trunk",
             "source": {
@@ -789,6 +789,24 @@
             "homepage": "https://wordpress.org/plugins/media-library-assistant/"
         },
         {
+            "name": "wpackagist-plugin/post-smtp",
+            "version": "2.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-smtp/",
+                "reference": "tags/2.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.0.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-smtp/"
+        },
+        {
             "name": "wpackagist-plugin/remove-category-url",
             "version": "1.1.5",
             "source": {
@@ -805,25 +823,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/remove-category-url/"
-        },
-        {
-            "name": "wpackagist-plugin/top-10",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/top-10/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/top-10.zip?timestamp=1558978975"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/top-10/",
-            "time": "2019-05-27T17:42:55+00:00"
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
@@ -1160,7 +1159,6 @@
         "wpackagist-plugin/duplicate-page": 20,
         "wpackagist-plugin/limit-login-attempts": 20,
         "wpackagist-plugin/wpfront-scroll-top": 20,
-        "wpackagist-plugin/top-10": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
