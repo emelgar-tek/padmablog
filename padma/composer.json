@@ -55,7 +55,8 @@
     "wpackagist-plugin/remove-category-url":"1.1.5",
     "wpackagist-plugin/autoptimize":"2.5.1",
     "wpackagist-plugin/autoptimize-criticalcss":"1.17.1",
-    "wpackagist-plugin/wordpress-seo":"12.4"
+    "wpackagist-plugin/wordpress-seo":"12.4",
+    "wpackagist-plugin/host-analyticsjs-local":"2.9.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
