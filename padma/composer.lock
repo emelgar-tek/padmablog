@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33bec43e3d27b0be29a7ebad26ea7c17",
+    "content-hash": "c090daf78b85d02ae69b4e70b6384689",
     "packages": [
         {
             "name": "composer/installers",
@@ -571,6 +571,25 @@
             "time": "2018-02-20T18:11:13+00:00"
         },
         {
+            "name": "wpackagist-plugin/async-javascript",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/async-javascript/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/async-javascript.zip?timestamp=1563122964"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/async-javascript/",
+            "time": "2019-07-14T16:49:24+00:00"
+        },
+        {
             "name": "wpackagist-plugin/autoptimize",
             "version": "2.5.1",
             "source": {
@@ -1129,6 +1148,7 @@
         "wpackagist-plugin/instagram-slider-widget": 20,
         "wpackagist-plugin/limit-login-attempts": 20,
         "wpackagist-plugin/facebook-pagelike-widget": 20,
+        "wpackagist-plugin/async-javascript": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
