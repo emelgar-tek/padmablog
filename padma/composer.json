@@ -56,10 +56,9 @@
     "wpackagist-plugin/autoptimize":"2.5.1",
     "wpackagist-plugin/wordpress-seo":"12.6.2",
     "wpackagist-plugin/host-analyticsjs-local":"2.9.4",
-    "wpackagist-plugin/async-javascript":"dev-trunk",
     "wpackagist-plugin/wpfront-scroll-top":"dev-trunk",
     "wpackagist-plugin/top-10":"dev-trunk",
-    "wpackagist-plugin/reading-progress-bar":"dev-trunk"
+    "wpackagist-plugin/if-menu":"0.15"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

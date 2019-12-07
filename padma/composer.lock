@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cb70e2a789ab80f5278631982fde9f0",
+    "content-hash": "ac401573bc9cc6b77d1d4bf4c4f75be9",
     "packages": [
         {
             "name": "composer/installers",
@@ -570,25 +570,6 @@
             "time": "2018-02-20T18:11:13+00:00"
         },
         {
-            "name": "wpackagist-plugin/async-javascript",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/async-javascript/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/async-javascript.zip?timestamp=1563122964"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/async-javascript/",
-            "time": "2019-07-14T16:49:24+00:00"
-        },
-        {
             "name": "wpackagist-plugin/autoptimize",
             "version": "2.5.1",
             "source": {
@@ -735,6 +716,24 @@
             "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
         },
         {
+            "name": "wpackagist-plugin/if-menu",
+            "version": "0.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/if-menu/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/if-menu.zip?timestamp=1562093064"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/if-menu/"
+        },
+        {
             "name": "wpackagist-plugin/instagram-slider-widget",
             "version": "1.5.0",
             "source": {
@@ -788,25 +787,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/media-library-assistant/"
-        },
-        {
-            "name": "wpackagist-plugin/reading-progress-bar",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/reading-progress-bar/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/reading-progress-bar.zip?timestamp=1571816112"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/reading-progress-bar/",
-            "time": "2019-10-23T07:35:12+00:00"
         },
         {
             "name": "wpackagist-plugin/remove-category-url",
@@ -1179,10 +1159,8 @@
         "wpackagist-plugin/birds-custom-login": 20,
         "wpackagist-plugin/duplicate-page": 20,
         "wpackagist-plugin/limit-login-attempts": 20,
-        "wpackagist-plugin/async-javascript": 20,
         "wpackagist-plugin/wpfront-scroll-top": 20,
         "wpackagist-plugin/top-10": 20,
-        "wpackagist-plugin/reading-progress-bar": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
