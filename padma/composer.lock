@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c090daf78b85d02ae69b4e70b6384689",
+    "content-hash": "8cb70e2a789ab80f5278631982fde9f0",
     "packages": [
         {
             "name": "composer/installers",
@@ -534,22 +534,21 @@
         },
         {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "dev-trunk",
+            "version": "2.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "trunk"
+                "reference": "tags/2.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.zip?timestamp=1556534271"
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.2.3.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/",
-            "time": "2019-04-29T10:37:51+00:00"
+            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
@@ -608,24 +607,6 @@
             "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
-            "name": "wpackagist-plugin/autoptimize-criticalcss",
-            "version": "1.17.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/autoptimize-criticalcss/",
-                "reference": "tags/1.17.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize-criticalcss.1.17.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/autoptimize-criticalcss/"
-        },
-        {
             "name": "wpackagist-plugin/birds-custom-login",
             "version": "dev-trunk",
             "source": {
@@ -646,15 +627,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1.4",
+            "version": "5.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1.4"
+                "reference": "tags/5.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -683,7 +664,7 @@
         },
         {
             "name": "wpackagist-plugin/facebook-pagelike-widget",
-            "version": "dev-trunk",
+            "version": "6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/facebook-pagelike-widget/",
@@ -691,14 +672,13 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/facebook-pagelike-widget.zip?timestamp=1570369686"
+                "url": "https://downloads.wordpress.org/plugin/facebook-pagelike-widget.zip?timestamp=1575398642"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/facebook-pagelike-widget/",
-            "time": "2019-10-06T13:48:06+00:00"
+            "homepage": "https://wordpress.org/plugins/facebook-pagelike-widget/"
         },
         {
             "name": "wpackagist-plugin/foobox-image-lightbox",
@@ -756,22 +736,21 @@
         },
         {
             "name": "wpackagist-plugin/instagram-slider-widget",
-            "version": "dev-trunk",
+            "version": "1.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instagram-slider-widget/",
-                "reference": "trunk"
+                "reference": "tags/1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-slider-widget.zip?timestamp=1565692025"
+                "url": "https://downloads.wordpress.org/plugin/instagram-slider-widget.1.5.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/instagram-slider-widget/",
-            "time": "2019-08-13T10:27:05+00:00"
+            "homepage": "https://wordpress.org/plugins/instagram-slider-widget/"
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts",
@@ -794,21 +773,40 @@
         },
         {
             "name": "wpackagist-plugin/media-library-assistant",
-            "version": "2.80",
+            "version": "2.81",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/media-library-assistant/",
-                "reference": "tags/2.80"
+                "reference": "tags/2.81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/media-library-assistant.2.80.zip"
+                "url": "https://downloads.wordpress.org/plugin/media-library-assistant.2.81.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/media-library-assistant/"
+        },
+        {
+            "name": "wpackagist-plugin/reading-progress-bar",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/reading-progress-bar/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/reading-progress-bar.zip?timestamp=1571816112"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/reading-progress-bar/",
+            "time": "2019-10-23T07:35:12+00:00"
         },
         {
             "name": "wpackagist-plugin/remove-category-url",
@@ -829,41 +827,78 @@
             "homepage": "https://wordpress.org/plugins/remove-category-url/"
         },
         {
-            "name": "wpackagist-plugin/w3-total-cache",
+            "name": "wpackagist-plugin/top-10",
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "url": "https://plugins.svn.wordpress.org/top-10/",
                 "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.zip?timestamp=1568228610"
+                "url": "https://downloads.wordpress.org/plugin/top-10.zip?timestamp=1558978975"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/w3-total-cache/",
-            "time": "2019-09-11T19:03:30+00:00"
+            "homepage": "https://wordpress.org/plugins/top-10/",
+            "time": "2019-05-27T17:42:55+00:00"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.4",
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.11.0",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.4"
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.11.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.11.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "12.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/12.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.6.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wpfront-scroll-top",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpfront-scroll-top/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpfront-scroll-top.zip?timestamp=1573361022"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpfront-scroll-top/",
+            "time": "2019-11-10T04:43:42+00:00"
         }
     ],
     "packages-dev": [
@@ -1140,15 +1175,14 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
         "wpackagist-plugin/amazon-web-services": 20,
         "wpackagist-plugin/birds-custom-login": 20,
         "wpackagist-plugin/duplicate-page": 20,
-        "wpackagist-plugin/w3-total-cache": 20,
-        "wpackagist-plugin/instagram-slider-widget": 20,
         "wpackagist-plugin/limit-login-attempts": 20,
-        "wpackagist-plugin/facebook-pagelike-widget": 20,
         "wpackagist-plugin/async-javascript": 20,
+        "wpackagist-plugin/wpfront-scroll-top": 20,
+        "wpackagist-plugin/top-10": 20,
+        "wpackagist-plugin/reading-progress-bar": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
