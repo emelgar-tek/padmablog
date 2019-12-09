@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba90dced248e4d35aef33cc8edb87a82",
+    "content-hash": "02ae3fdf76f9ddb9574d9a39029fe189",
     "packages": [
         {
             "name": "composer/installers",
@@ -644,6 +644,24 @@
             "time": "2019-09-20T11:17:36+00:00"
         },
         {
+            "name": "wpackagist-plugin/ewww-image-optimizer",
+            "version": "5.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/5.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
             "name": "wpackagist-plugin/facebook-pagelike-widget",
             "version": "6.0",
             "source": {
@@ -752,24 +770,6 @@
             "homepage": "https://wordpress.org/plugins/if-menu/"
         },
         {
-            "name": "wpackagist-plugin/imagify",
-            "version": "1.9.8.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/imagify/",
-                "reference": "tags/1.9.8.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/imagify.1.9.8.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/imagify/"
-        },
-        {
             "name": "wpackagist-plugin/instagram-slider-widget",
             "version": "1.5.0",
             "source": {
@@ -823,6 +823,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/media-library-assistant/"
+        },
+        {
+            "name": "wpackagist-plugin/optimole-wp",
+            "version": "2.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/optimole-wp/",
+                "reference": "tags/2.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/optimole-wp.2.2.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/optimole-wp/"
         },
         {
             "name": "wpackagist-plugin/post-smtp",
@@ -895,25 +913,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
-            "name": "wpackagist-plugin/wpfront-scroll-top",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wpfront-scroll-top/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpfront-scroll-top.zip?timestamp=1573361022"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpfront-scroll-top/",
-            "time": "2019-11-10T04:43:42+00:00"
         }
     ],
     "packages-dev": [
@@ -1194,7 +1193,6 @@
         "wpackagist-plugin/birds-custom-login": 20,
         "wpackagist-plugin/duplicate-page": 20,
         "wpackagist-plugin/limit-login-attempts": 20,
-        "wpackagist-plugin/wpfront-scroll-top": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
