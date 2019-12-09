@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96a0f48e25c0a6f851f8c1bfa5ae4c99",
+    "content-hash": "9563456c8ed2326ceb080b4693b036cc",
     "packages": [
         {
             "name": "composer/installers",
@@ -714,6 +714,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
+        },
+        {
+            "name": "wpackagist-plugin/host-webfonts-local",
+            "version": "2.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/host-webfonts-local/",
+                "reference": "tags/2.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/host-webfonts-local.2.1.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/host-webfonts-local/"
         },
         {
             "name": "wpackagist-plugin/if-menu",
