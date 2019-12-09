@@ -40,7 +40,7 @@
     "roots/wordpress": "5.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/amazon-s3-and-cloudfront":"2.3.1",
+    "wpackagist-plugin/amazon-s3-and-cloudfront":"2.3.2",
     "wpackagist-plugin/amazon-web-services":"dev-trunk",
     "wpackagist-plugin/birds-custom-login":"dev-trunk",
     "wpackagist-plugin/duplicate-page":"dev-trunk",
