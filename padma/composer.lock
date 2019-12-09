@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9563456c8ed2326ceb080b4693b036cc",
+    "content-hash": "ba90dced248e4d35aef33cc8edb87a82",
     "packages": [
         {
             "name": "composer/installers",
@@ -750,6 +750,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/if-menu/"
+        },
+        {
+            "name": "wpackagist-plugin/imagify",
+            "version": "1.9.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imagify/",
+                "reference": "tags/1.9.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imagify.1.9.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imagify/"
         },
         {
             "name": "wpackagist-plugin/instagram-slider-widget",
