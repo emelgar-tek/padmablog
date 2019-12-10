@@ -57,9 +57,7 @@
     "wpackagist-plugin/host-analyticsjs-local":"2.9.4",
     "wpackagist-plugin/if-menu":"0.15",
     "wpackagist-plugin/post-smtp":"2.0.6",
-    "wpackagist-plugin/bj-lazy-load":"1.0.9",
     "wpackagist-plugin/host-webfonts-local":"2.1.6",
-    "wpackagist-plugin/optimole-wp":"2.2.6",
     "wpackagist-plugin/ewww-image-optimizer":"5.1.3"
   },
   "require-dev": {

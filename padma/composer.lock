@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02ae3fdf76f9ddb9574d9a39029fe189",
+    "content-hash": "4b6c177383561ea2c7f534912b1cea50",
     "packages": [
         {
             "name": "composer/installers",
@@ -534,15 +534,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "tags/2.3.1"
+                "reference": "tags/2.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.2.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.2.3.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -587,24 +587,6 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/birds-custom-login/",
             "time": "2018-05-24T19:29:30+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/bj-lazy-load",
-            "version": "1.0.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bj-lazy-load/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bj-lazy-load.zip?timestamp=1502280365"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bj-lazy-load/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
@@ -823,24 +805,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/media-library-assistant/"
-        },
-        {
-            "name": "wpackagist-plugin/optimole-wp",
-            "version": "2.2.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/optimole-wp/",
-                "reference": "tags/2.2.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/optimole-wp.2.2.6.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/optimole-wp/"
         },
         {
             "name": "wpackagist-plugin/post-smtp",
