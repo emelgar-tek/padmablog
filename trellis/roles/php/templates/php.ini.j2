@@ -18,6 +18,7 @@ upload_max_filesize = {{ php_upload_max_filesize }}
 expose_php = Off
 date.timezone = {{ php_timezone }}
 output_buffering = {{ php_output_buffering }}
+allow_url_fopen = on
 
 [mysqlnd]
 mysqlnd.collect_memory_statistics = {{ php_mysqlnd_collect_memory_statistics }}
