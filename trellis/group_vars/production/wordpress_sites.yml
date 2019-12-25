@@ -8,7 +8,7 @@ wordpress_sites:
       - canonical: www.padmablog.com
       - canonical: padmablog.com
         redirects:
-      - padmablog.com
+          - padmablog.com
     local_path: ../padma # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:hitek/personalSites.git # replace with your Git repo URL
     repo_subtree_path: padma # relative path to your Bedrock/WP directory in your repo
