@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  padmablog.com:
+  www.padmablog.com:
     site_hosts:
       - canonical: www.padmablog.com
       - canonical: padmablog.com
@@ -28,7 +28,7 @@ wordpress_sites:
     h5bp:
       extra_security: false
 
-  teknovagrant.com:
+  www.teknovagrant.com:
     site_hosts:
       - canonical: www.teknovagrant.com
       - canonical: teknovagrant.com
