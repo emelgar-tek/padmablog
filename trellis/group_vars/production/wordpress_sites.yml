@@ -16,7 +16,7 @@ wordpress_sites:
     repo_subtree_path: padma # relative path to your Bedrock/WP directory in your repo
     branch: master
     env:
-      wp_home: http://www.padmablog.com
+      wp_home: https://www.padmablog.com
     multisite:
       enabled: false
     ssl:
