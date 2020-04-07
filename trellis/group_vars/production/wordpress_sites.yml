@@ -3,12 +3,12 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  www.padmablog.com:
+  padmablog.com:
     site_hosts:
-      - canonical: www.padmablog.com
       - canonical: padmablog.com
+      - canonical: www.padmablog.com
     redirects:
-      - padmablog.com
+      - www.padmablog.com
     user: deploy
     group: www-data
     local_path: ../padma # path targeting local Bedrock site directory (relative to Ansible root)
@@ -16,7 +16,7 @@ wordpress_sites:
     repo_subtree_path: padma # relative path to your Bedrock/WP directory in your repo
     branch: master
     env:
-      wp_home: https://www.padmablog.com
+      wp_home: https://padmablog.com
     multisite:
       enabled: false
     ssl:
