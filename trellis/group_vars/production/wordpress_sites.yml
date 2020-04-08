@@ -23,3 +23,5 @@ wordpress_sites:
       enabled: false
     cache:
       enabled: false
+    h5bp:
+      extra_security: false
