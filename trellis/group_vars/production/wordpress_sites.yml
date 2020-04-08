@@ -15,8 +15,6 @@ wordpress_sites:
     repo: git@github.com:hitek/personalSites.git # replace with your Git repo URL
     repo_subtree_path: padma # relative path to your Bedrock/WP directory in your repo
     branch: master
-    env:
-      wp_home: https://padmablog.com
     multisite:
       enabled: false
     ssl:
