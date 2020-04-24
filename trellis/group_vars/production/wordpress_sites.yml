@@ -12,14 +12,14 @@ wordpress_sites:
     user: deploy
     group: www-data
     local_path: ../padma # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:hitek/personalSites.git # replace with your Git repo URL
+    repo: git@github.com:emelgar-tek/padmablog.git # replace with your Git repo URL
     repo_subtree_path: padma # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
       enabled: false
     ssl:
       enabled: true
-      provider: self-signed
+      provider: letsencrypt
     cache:
       enabled: false
     h5bp:
